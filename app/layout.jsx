@@ -1,3 +1,4 @@
+import Header from './layout-components/Header'
 import { Raleway } from 'next/font/google'
 import './globals.css'
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={raleway.className}>
       <body>
+        <Header />
         {children}
       </body>
     </html>
