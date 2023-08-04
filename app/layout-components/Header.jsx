@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Link from "next/link";
-import Image from "next/image";
-import logo from "../../public/didx-logo.png";
+import Link from "next/link"
+import Image from "next/image"
+import logo from "../../public/didx-logo.png"
 
 const MENULINKS = [
 	{name: "About us", link: "/about-us"},
@@ -20,16 +20,16 @@ export default function Header() {
 	const [isMenuOpen, setMenuOpen] = useState(false);
 
 	useEffect(() => {
-		const menu = document.getElementById('mobile-menu');
+		const menu = document.getElementById('mobile-menu')
 
 		if (isMenuOpen) {
-			menu.classList.add('h-[calc(100vh-80px)]');
-			menu.classList.remove('h-0');
+			menu.classList.add('h-[calc(100vh-80px)]')
+			menu.classList.remove('h-0')
 		} else {
-			menu.classList.remove('h-[calc(100vh-80px)]');
-			menu.classList.add('h-0');
+			menu.classList.remove('h-[calc(100vh-80px)]')
+			menu.classList.add('h-0')
 		}
-	}, [isMenuOpen]);
+	}, [isMenuOpen])
 
 	return (
 		<header class="w-full h-20 px-3 flex items-center flex-wrap bg-white sticky top-0 lg:h-24 lg:px-8">
