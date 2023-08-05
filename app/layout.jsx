@@ -1,6 +1,11 @@
 import Header from './layout-components/Header'
+import Footer from './layout-components/Footer'
 import { Raleway } from 'next/font/google'
 import './globals.css'
+import "@fortawesome/fontawesome-svg-core/styles.css"
+import { config } from "@fortawesome/fontawesome-svg-core"
+
+config.autoAddCss = false
 
 const raleway = Raleway({
   weight: ['300', '400', '500', '600', '700'],
@@ -20,6 +25,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
