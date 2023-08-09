@@ -32,20 +32,21 @@ export default function Header() {
 	}, [isMenuOpen])
 
 	return (
-		<header class="w-full h-20 px-3 flex items-center flex-wrap bg-white sticky top-0 lg:h-24 lg:px-8">
+		<header className="w-full h-20 px-3 flex items-center flex-wrap bg-white sticky top-0 lg:h-24 lg:px-8">
 			<Image
 				src={logo}
 				alt="DIDX Inc logo"
-				className="w-[106px] h-full mr-auto lg:w-[136px]"
+				className="w-[100px] h-full mr-auto lg:w-[136px]"
 			/>
 			<button
+				aria-label="Menu"
 				onClick={() => setMenuOpen(prevState => !prevState)}
-				class="px-4 py-2.5 flex flex-col items-center justify-center gap-y-1.5 border rounded lg:hidden">
-				<span class="block w-6 h-0.5 bg-gray-500"></span>
-				<span class="block w-6 h-0.5 bg-gray-500"></span>
-				<span class="block w-6 h-0.5 bg-gray-500"></span>
+				className="px-4 py-2.5 flex flex-col items-center justify-center gap-y-1.5 border rounded lg:hidden">
+				<span className="block w-6 h-0.5 bg-gray-500"></span>
+				<span className="block w-6 h-0.5 bg-gray-500"></span>
+				<span className="block w-6 h-0.5 bg-gray-500"></span>
 			</button>
-			<nav id="mobile-menu" class="w-full h-0 absolute top-20 left-0 flex flex-col items-start justify-start gap-y-6 overflow-hidden font-semibold px-5 text-zinc-700 bg-white z-10 transition-all duration-300 ease-in lg:relative lg:top-0 lg:w-auto lg:h-auto lg:flex-row lg:gap-x-10">
+			<nav id="mobile-menu" className="w-full h-0 absolute top-20 left-0 flex flex-col items-start justify-start gap-y-6 overflow-hidden font-semibold px-5 text-zinc-700 bg-white z-10 transition-all duration-300 ease-in lg:relative lg:top-0 lg:w-auto lg:h-auto lg:flex-row lg:gap-x-10">
 				<Link className="mt-4 lg:m-0 hover:text-blue-500 transition-colors" href="/">Home</Link>
 				{MENULINKS.map((item) => (
 					<Link className="hover:text-blue-500 transition-colors" href={item.link}>{item.name}</Link>
