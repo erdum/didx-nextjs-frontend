@@ -13,7 +13,7 @@ export default function Page() {
           <h2 className="w-full text-xs font-medium sm:text-lg lg:text-xl 2xl:text-2xl">Connecting the world, one country at a time!</h2>
           <Link
             href="/signup"
-            className="self-center mt-6 px-4 py-2 bg-blue-600 text-xl rounded font-semibold transition-colors transition-transform hover:bg-white hover:text-blue-600 hover:scale-110 sm:text-2xl sm:px-6 sm:py-3 sm:mt-8 lg:rounded-lg"
+            className="self-center mt-6 px-4 py-2 bg-blue-600 text-xl rounded font-semibold transition-all hover:bg-white hover:text-blue-600 hover:scale-110 sm:text-2xl sm:px-6 sm:py-3 sm:mt-8 lg:rounded-lg"
           >
             Sign Up
           </Link>
