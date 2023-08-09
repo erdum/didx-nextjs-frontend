@@ -1,18 +1,11 @@
 import Header from './layout-components/Header'
 import Footer from './layout-components/Footer'
-import { Raleway } from 'next/font/google'
+import Head from 'next/head'
 import './globals.css'
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 
 config.autoAddCss = false
-
-const raleway = Raleway({
-  weight: ['300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  display: 'swap',
-})
  
 export const metadata = {
   title: 'Create Next App',
@@ -21,7 +14,12 @@ export const metadata = {
  
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={raleway.className}>
+    <html lang="en">
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+      </Head>
       <body>
         <Header />
         {children}
