@@ -84,13 +84,13 @@ export default function Footer() {
 					</span>
 				</p>
 				<p className="flex gap-x-6 text-xl mt-4 lg:m-0">
-					<Link href="https://www.facebook.com/DIDxGlobal" aria-label="Follow us on Facebook"><FontAwesomeIcon icon={faFacebookF}/></Link>
-					<Link href="https://twitter.com/didxglobal" aria-label="Follow us on Twitter"><FontAwesomeIcon icon={faTwitter}/></Link>
+					<Link href="https://www.facebook.com/DIDxGlobal" aria-label="Follow us on Facebook" className="transition-colors hover:text-[#3b5998]"><FontAwesomeIcon icon={faFacebookF}/></Link>
+					<Link href="https://twitter.com/didxglobal" aria-label="Follow us on Twitter" className="transition-colors hover:text-[#1DA1F2]"><FontAwesomeIcon icon={faTwitter}/></Link>
 					{/*<Link href="https://plus.google.com/111382738877008451324"><FontAwesomeIcon icon={faGooglePlusG}/></Link>*/}
-					<Link href="https://www.linkedin.com/company/didx" aria-label="Follow un on Linkedin"><FontAwesomeIcon icon={faLinkedinIn}/></Link>
-					<Link href="https://www.youtube.com/user/didexchange" aria-label="Watch our training videos and learn more about DIDX on Youtube"><FontAwesomeIcon icon={faYoutube}/></Link>
+					<Link href="https://www.linkedin.com/company/didx" aria-label="Follow un on Linkedin" className="transition-colors hover:text-[#0A66C2]"><FontAwesomeIcon icon={faLinkedinIn}/></Link>
+					<Link href="https://www.youtube.com/user/didexchange" aria-label="Watch our training videos and learn more about DIDX on Youtube" className="transition-colors hover:text-[#c4302b]"><FontAwesomeIcon icon={faYoutube}/></Link>
 					{/*<Link href="/rss"><FontAwesomeIcon icon={faRss}/></Link>*/}
-					<Link href="mailto:care@didx.net" aria-label="Write a email to our sales representative"><FontAwesomeIcon icon={faEnvelope}/></Link>
+					<Link href="mailto:care@didx.net" aria-label="Write a email to our sales representative" className="transition-colors hover:text-[#D44638]"><FontAwesomeIcon icon={faEnvelope}/></Link>
 				</p>
 			</div>
 		</footer>
