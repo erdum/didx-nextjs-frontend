@@ -23,13 +23,13 @@ export default function Page() {
       </article>
 
       <section>
-        <ul className="flex flex-col items-start justify-evenly gap-y-10 py-16 px-6 text-xl font-semibold text-neutral-700 xl:flex-row xl:flex-wrap xl:gap-20 xl:justify-around">
-          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8" icon={faUsers} /> 25,000 Members</p></li>
-          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8" icon={faEarthAmerica} /> 90+ Nations</p></li>
-          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8" icon={faPhone} /> 17+ Million Numbers</p></li>
-          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8" icon={faMoneyBill} /> No Membership Fee</p></li>
-          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8" icon={faNetworkWired} /> Free API</p></li>
-          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-6 sm:text-3xl sm:mx-10" icon={faDollar} /> Low Monthly Rates</p></li>
+        <ul className="flex flex-col items-start justify-evenly gap-y-10 py-16 px-6 text-xl font-semibold text-neutral-700 xl:flex-row xl:flex-wrap xl:gap-20 xl:justify-around xl:px-12">
+          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faUsers} /> 25,000 Members</p></li>
+          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faEarthAmerica} /> 90+ Nations</p></li>
+          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faPhone} /> 17+ Million Numbers</p></li>
+          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faMoneyBill} /> No Membership Fee</p></li>
+          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faNetworkWired} /> Free API</p></li>
+          <li><p><FontAwesomeIcon className="text-blue-500 text-2xl mx-6 sm:text-3xl sm:mx-10 xl:mx-0" icon={faDollar} /> Low Monthly Rates</p></li>
         </ul>
       </section>
     </main>
