@@ -51,7 +51,7 @@ export default function Header() {
 				{MENULINKS.map((item) => (
 					<Link key={item.name} className="hover:text-blue-500 transition-colors" href={item.link}>{item.name}</Link>
 				))}
-				<Link className="text-blue-500 hover:text-zinc-700 transition-colors" href="/sign-in">Sign in</Link>
+				<Link className="text-blue-500 hover:text-zinc-700 transition-colors" href="/signin">Sign in</Link>
 			</nav>
 		</header>
 	);
