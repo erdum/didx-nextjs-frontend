@@ -30,13 +30,13 @@ export default function Footer() {
 
 				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-semibold">
 					<p className="text-white text-2xl mt-6 mb-4">DIDx Seller & Buyer</p>
-					<Link className="transition-colors hover:text-white" href="/clec"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>CLECs Sell Numbers</Link>
-					<Link className="transition-colors hover:text-white" href="/toll-free-numbers"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Toll Free Numbers</Link>
-					<Link className="transition-colors hover:text-white" href="/case-study"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Case Study</Link>
-					<Link className="transition-colors hover:text-white" href="/testimonial"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Testimonial</Link>
-					<Link className="transition-colors hover:text-white" href="/coverage-area"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Coverage Area</Link>
-					<Link className="transition-colors hover:text-white" href="/lnp-lookup"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>LNP Lookup</Link>
-					<Link className="transition-colors hover:text-white" href="/our-team"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Our Team</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/clec"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>CLECs Sell Numbers</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/toll-free-numbers"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Toll Free Numbers</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/case-study"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Case Study</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/testimonial"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Testimonial</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/coverage-area"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Coverage Area</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/lnp-lookup"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>LNP Lookup</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/our-team"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Our Team</Link>
 					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400"></span>
 					<Link href="https://youtu.be/FOuPb9qgFlI" className="w-full flex flex-wrap">
 						<FontAwesomeIcon className="text-4xl bg-[#ff8c00] text-white p-2 rounded-md transition-colors hover:text-[#ff8c00] hover:bg-white" icon={faYoutube}/>
@@ -46,9 +46,9 @@ export default function Footer() {
 
 				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-semibold">
 					<p className="text-white text-2xl mt-6 mb-4">Sample Configuration</p>
-					<Link className="transition-colors hover:text-white" href="/asterisk"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Asterisk</Link>
-					<Link className="transition-colors hover:text-white" href="/voip-switch"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>VOIP Switch</Link>
-					<Link className="transition-colors hover:text-white" href="/elastix"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Elastix</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/asterisk"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Asterisk</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/voip-switch"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>VOIP Switch</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/elastix"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Elastix</Link>
 					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400"></span>
 					<Image src={businessCertificateImg} alt="accredited business certificate" />
 					<Image src={isoCertificateImg} alt="ISO 9001:2008 registeration mark" />
@@ -77,10 +77,10 @@ export default function Footer() {
 					DIDX is Link Delaware based company since 2005. Copyrights 2005-{new Date().toLocaleString('en-us', { year: "numeric" })}
 					<br />
 					<span className="text-neutral-300 text-sm">
-						<Link className="transition-colors hover:text-white" href="/terms">Terms of Services</Link> |
-						<Link className="transition-colors hover:text-white" href="/privacy-policy"> Privacy Policy</Link> |
-						<Link className="transition-colors hover:text-white" href="/use-policy"> Use Policy</Link> |
-						<Link className="transition-colors hover:text-white" href="https://kb.didx.net/list-of-api-functions/"> API</Link>
+						<Link className="transition-colors hover:text-neutral-500" href="/terms">Terms of Services</Link> |
+						<Link className="transition-colors hover:text-neutral-500" href="/privacy-policy"> Privacy Policy</Link> |
+						<Link className="transition-colors hover:text-neutral-500" href="/use-policy"> Use Policy</Link> |
+						<Link className="transition-colors hover:text-neutral-500" href="https://kb.didx.net/list-of-api-functions/"> API</Link>
 					</span>
 				</p>
 				<p className="flex gap-x-6 text-xl mt-4 lg:m-0">
