@@ -37,7 +37,7 @@ export default function Footer() {
 					<Link className="transition-colors hover:text-neutral-500" href="/coverage-area"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Coverage Area</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/lnp-lookup"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>LNP Lookup</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/our-team"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Our Team</Link>
-					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400"></span>
+					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400 sm:w-2/5 xl:w-full"></span>
 					<Link href="https://youtu.be/FOuPb9qgFlI" className="w-full flex flex-wrap">
 						<FontAwesomeIcon className="text-4xl bg-[#ff8c00] text-white p-2 rounded-md transition-colors hover:text-[#ff8c00] hover:bg-white" icon={faYoutube}/>
 						<span className="mt-1 ml-3 text-neutral-300">Training Videos<br /> Click Here</span>
@@ -49,7 +49,7 @@ export default function Footer() {
 					<Link className="transition-colors hover:text-neutral-500" href="/asterisk"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Asterisk</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/voip-switch"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>VOIP Switch</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/elastix"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Elastix</Link>
-					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400"></span>
+					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400 sm:w-2/5 xl:w-full"></span>
 					<Image src={businessCertificateImg} alt="accredited business certificate" />
 					<Image src={isoCertificateImg} alt="ISO 9001:2008 registeration mark" />
 				</nav>
