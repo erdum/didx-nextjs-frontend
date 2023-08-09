@@ -49,7 +49,7 @@ export default function Header() {
 			<nav id="mobile-menu" className="w-full h-0 absolute top-20 left-0 flex flex-col items-start justify-start gap-y-6 overflow-hidden font-semibold px-5 text-zinc-700 bg-white z-10 transition-all duration-300 ease-in lg:relative lg:top-0 lg:w-auto lg:h-auto lg:flex-row lg:gap-x-10">
 				<Link className="mt-4 lg:m-0 hover:text-blue-500 transition-colors" href="/">Home</Link>
 				{MENULINKS.map((item) => (
-					<Link className="hover:text-blue-500 transition-colors" href={item.link}>{item.name}</Link>
+					<Link key={item.name} className="hover:text-blue-500 transition-colors" href={item.link}>{item.name}</Link>
 				))}
 				<Link className="text-blue-500 hover:text-zinc-700 transition-colors" href="/sign-in">Sign in</Link>
 			</nav>
