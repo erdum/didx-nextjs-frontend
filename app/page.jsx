@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Page() {
   return(
     <main className="w-full">
-      <article
+      <section
         className="w-full h-56 bg-top flex items-start justify-center bg-cover bg-no-repeat sm:h-72 lg:h-[36.64vw]"
         style={{ backgroundImage: "url('/homepage-banner.webp')" }}
       >
@@ -20,7 +20,7 @@ export default function Page() {
             Sign Up
           </Link>
         </section>
-      </article>
+      </section>
 
       <section>
         <ul className="flex flex-col items-start justify-evenly gap-y-10 py-16 px-6 text-xl font-semibold text-neutral-700 xl:flex-row xl:flex-wrap xl:gap-20 xl:justify-around xl:px-12">
