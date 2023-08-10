@@ -38,7 +38,7 @@ export default function Page() {
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faMoneyBill} /> No Membership Fee</p></li>
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faNetworkWired} /> Free API</p></li>
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-6 sm:text-3xl sm:mx-10 xl:mx-0" icon={faDollar} /> Low Monthly Rates</p></li>
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-5 sm:text-3xl sm:mx-9 xl:mx-0" icon={faMessage} /> Inbound Short Code</p></li>
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-5 sm:text-3xl sm:mx-9 xl:mx-0" icon={faMessage} /> Short Code Inbound</p></li>
         </ul>
       </section>
     </main>
