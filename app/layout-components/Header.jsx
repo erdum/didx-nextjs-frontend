@@ -47,11 +47,11 @@ export default function Header() {
 				<span className="block w-6 h-0.5 bg-gray-500"></span>
 			</button>
 			<nav id="mobile-menu" className="w-full h-0 absolute top-20 left-0 flex flex-col items-start justify-start gap-y-6 overflow-hidden font-semibold px-5 text-zinc-700 bg-white z-10 transition-all duration-300 ease-in lg:px-8 xl:px-0 xl:relative xl:top-0 xl:w-auto xl:h-auto xl:gap-x-10 xl:flex-row">
-				<Link className="mt-4 md:mt-8 lg:m-0 hover:text-blue-500 transition-colors" href="/">Home</Link>
+				<Link className="mt-4 md:mt-8 lg:m-0 hover:text-blue-600 transition-colors" href="/">Home</Link>
 				{MENULINKS.map((item) => (
-					<Link key={item.name} className="hover:text-blue-500 transition-colors" href={item.link}>{item.name}</Link>
+					<Link key={item.name} className="hover:text-blue-600 transition-colors" href={item.link}>{item.name}</Link>
 				))}
-				<Link className="text-blue-500 hover:text-zinc-700 transition-colors" href="/signin">Sign in</Link>
+				<Link className="text-blue-600 hover:text-zinc-700 transition-colors" href="/signin">Sign in</Link>
 			</nav>
 		</header>
 	);
