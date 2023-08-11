@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faUsers, faEarthAmerica, faPhone, faMoneyBill, faNetworkWired, faDollar, faMessage } from "@fortawesome/free-solid-svg-icons"
+import { faUsers, faEarthAmerica, faPhone, faMoneyBill, faNetworkWired, faDollar, faMessage, faCircleCheck } from "@fortawesome/free-solid-svg-icons"
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -31,7 +31,7 @@ export default function Page() {
       </section>
 
       <section>
-        <ul className="flex flex-col items-start justify-evenly gap-y-10 py-16 px-6 text-xl font-semibold text-neutral-700 xl:flex-row xl:flex-wrap xl:gap-20 xl:justify-around xl:px-12">
+        <ul className="flex flex-col items-start justify-evenly gap-y-10 py-10 px-6 text-xl font-semibold text-neutral-700 xl:flex-row xl:flex-wrap xl:gap-20 xl:justify-around xl:px-12">
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faUsers} /> 25,000 Members</p></li>
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faEarthAmerica} /> 90+ Nations</p></li>
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faPhone} /> 17+ Million Numbers</p></li>
@@ -40,6 +40,28 @@ export default function Page() {
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-6 sm:text-3xl sm:mx-10 xl:mx-0" icon={faDollar} /> Low Monthly Rates</p></li>
           <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-5 sm:text-3xl sm:mx-9 xl:mx-0" icon={faMessage} /> Short Code Inbound</p></li>
         </ul>
+      </section>
+
+      <hr className="w-11/12 mx-auto h-px bg-neutral-300 border-0"/>
+
+      <section className="flex flex-col gap-y-8 py-4 px-6 mt-6 sm:px-16 xl:px-0 xl:flex-row xl:gap-x-20 xl:justify-center">
+        <iframe src="https://www.youtube.com/embed/SuhXEqRFZIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="w-full aspect-video xl:w-5/12 2xl:w-4/12"></iframe>
+        <section className="xl:w-5/12">
+          <h2 className="text-2xl font-medium mb-6 sm:mb-12 sm:text-3xl">Features for DID Buyers</h2>
+          <section className="text-neutral-700 flex flex-col gap-y-2 sm:flex-wrap sm:h-56">
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Free API</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> No membership fee</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Money back gurantee</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Money back gurantee</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Low monthly rates</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Buy numbers for your VoIP service</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Be a global service provider instantly</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Automatic DID provisioning</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> 36 hours free DID trial</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Phone numbers from 1000s of cities worlwide</p>
+            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Regulatory managment</p>
+          </section>
+        </section>
       </section>
     </main>
   )
