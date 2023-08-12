@@ -49,17 +49,17 @@ export default function Page() {
         <section className="xl:w-5/12">
           <h2 className="text-2xl font-medium mb-6 sm:mb-12 sm:text-3xl">Features for DID Buyers</h2>
           <section className="text-neutral-700 flex flex-col gap-y-2 sm:flex-wrap sm:h-56">
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Free API</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> No membership fee</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Money back gurantee</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Money back gurantee</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Low monthly rates</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Buy numbers for your VoIP service</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Be a global service provider instantly</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Automatic DID provisioning</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> 36 hours free DID trial</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Phone numbers from 1000s of cities worlwide</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Regulatory managment</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Free API</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> No membership fee</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Money back gurantee</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Money back gurantee</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Low monthly rates</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Buy numbers for your VoIP service</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Be a global service provider instantly</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Automatic DID provisioning</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> 36 hours free DID trial</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Phone numbers from 1000s of cities worlwide</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Regulatory managment</p>
           </section>
         </section>
       </section>
@@ -70,16 +70,16 @@ export default function Page() {
         <section className="xl:w-5/12">
           <h2 className="text-2xl font-medium mb-6 sm:mb-12 sm:text-3xl">Features for DID Sellers</h2>
           <section className="text-neutral-700 flex flex-col gap-y-2 sm:flex-wrap sm:h-56">
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Free API</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> No membership fee</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> No listing charges</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> We do your customer service</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> We do your provisioning</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Your payment guaranteed</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Only one interop</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> CLECs sell phone numbers</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Regulatory Management</p>
-            <p className="w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Sell phone numbers to over 25,000 DIDX members</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Free API</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> No membership fee</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> No listing charges</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> We do your customer service</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> We do your provisioning</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Your payment guaranteed</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Only one interop</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> CLECs sell phone numbers</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Regulatory Management</p>
+            <p className="w-full sm:w-1/2"><FontAwesomeIcon className="text-blue-500" icon={faCircleCheck} /> Sell phone numbers to over 25,000 DIDX members</p>
           </section>
         </section>
         <iframe src="https://www.youtube.com/embed/Hxs8EZG8FMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="w-full aspect-video xl:w-5/12 2xl:w-4/12"></iframe>
