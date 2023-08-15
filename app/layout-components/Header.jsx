@@ -36,7 +36,7 @@ export default function Header() {
 			<Image
 				src={logo}
 				alt="DIDX Inc logo"
-				className="w-[100px] h-full mr-auto lg:w-[136px]"
+				className="w-[100px] h-full mr-auto lg:w-[120px]"
 			/>
 			<button
 				aria-label="Menu"
