@@ -24,7 +24,7 @@ export default function Footer() {
 						className="w-[126px] h-auto -ml-2 mb-4 lg:w-[156px] lg:mt-6"
 					/>
 					<p>DIDX is Link Delaware based company since 2005, working in the field of Telecom solutions.</p>
-					<p><span className="text-sm font-medium">Address:</span><br />6005 Keating Road Pensacola, FL 32504</p>
+					<p><span className="text-sm font-medium">Address:</span><br />PO Box 192750 #22079 San Francisco, CA 94119</p>
 					<p><span className="text-sm font-medium">Email:</span><br />sales@didxnet</p>
 				</div>
 
