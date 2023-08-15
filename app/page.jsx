@@ -28,7 +28,7 @@ export default function Page() {
           <div className="flex flex-col gap-6 mt-6 xl:flex-row">
             <Link
               href="/signup"
-              className="px-4 py-2 bg-blue-600 text-xl rounded font-semibold transition-all hover:bg-zinc-200 hover:text-neutral-600 hover:scale-110 sm:text-2xl sm:px-6 sm:py-3 lg:rounded-lg"
+              className="px-4 py-2 bg-blue-600 text-xl rounded font-medium transition-all hover:bg-zinc-200 hover:text-neutral-600 hover:scale-110 sm:text-2xl sm:px-6 sm:py-3 lg:rounded-lg"
             >
               Sign Up
             </Link>
@@ -37,14 +37,14 @@ export default function Page() {
       </section>
 
       <section>
-        <ul className="flex flex-col items-start justify-evenly gap-y-10 py-10 px-6 text-xl font-semibold text-neutral-700 xl:flex-row xl:flex-wrap xl:gap-20 xl:justify-around xl:px-12">
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faUsers} /> 25,000 Members</p></li>
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faEarthAmerica} /> 90+ Nations</p></li>
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faPhone} /> 17+ Million Numbers</p></li>
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faMoneyBill} /> No Membership Fee</p></li>
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:text-3xl sm:mx-8 xl:mx-0" icon={faNetworkWired} /> Free API</p></li>
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-6 sm:text-3xl sm:mx-10 xl:mx-0" icon={faDollar} /> Low Monthly Rates</p></li>
-          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-5 sm:text-3xl sm:mx-9 xl:mx-0" icon={faMessage} /> Short Code Inbound</p></li>
+        <ul className="flex flex-col items-start justify-evenly gap-y-10 py-10 px-6 text-base font-semibold text-neutral-700 xl:flex-row xl:flex-wrap xl:gap-20 xl:justify-around xl:px-12">
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:mx-8 xl:mx-0" icon={faUsers} /> 25,000 Members</p></li>
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:mx-8 xl:mx-0" icon={faEarthAmerica} /> 90+ Nations</p></li>
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:mx-8 xl:mx-0" icon={faPhone} /> 17+ Million Numbers</p></li>
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:mx-8 xl:mx-0" icon={faMoneyBill} /> No Membership Fee</p></li>
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-4 sm:mx-8 xl:mx-0" icon={faNetworkWired} /> Free API</p></li>
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-6 sm:mx-10 xl:mx-0" icon={faDollar} /> Low Monthly Rates</p></li>
+          <li><p className="flex items-center xl:gap-x-4"><FontAwesomeIcon className="text-blue-500 text-2xl mx-5 sm:mx-9 xl:mx-0" icon={faMessage} /> Short Code Inbound</p></li>
         </ul>
       </section>
 
