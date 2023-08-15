@@ -60,11 +60,11 @@ export default function Footer() {
 					<button className="text-white bg-blue-600 px-3 py-1.5 rounded transition-colors hover:text-blue-600 hover:bg-white">Join List</button>
 					<span className="w-11/12 h-px mr-auto mt-6 bg-neutral-400"></span>
 					<div className="w-full flex justify-between">
-						<Link href="https://youtu.be/FOuPb9qgFlI" className="w-full flex justify-start">
+						<Link href="calto:salesdidx" className="w-full flex justify-start">
 							<FontAwesomeIcon className="text-2xl bg-[#ff8c00] text-white p-2 rounded-md transition-colors hover:text-[#ff8c00] hover:bg-white" icon={faPhone}/>
 							<span className="ml-3 text-neutral-300 text-sm">Call us<br /> on Skype</span>
 						</Link>
-						<Link href="https://youtu.be/FOuPb9qgFlI" className="w-full flex justify-start">
+						<Link href="calto:salesdidx?chat" className="w-full flex justify-start">
 							<FontAwesomeIcon className="text-2xl bg-[#ff8c00] text-white p-2 rounded-md transition-colors hover:text-[#ff8c00] hover:bg-white" icon={faMessage}/>
 							<span className="ml-3 text-neutral-300 text-sm">Chat with us<br /> on Skype</span>
 						</Link>
