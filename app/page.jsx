@@ -32,12 +32,6 @@ export default function Page() {
             >
               Sign Up
             </Link>
-            <Link
-              href="/signup"
-              className="hidden px-4 py-2 bg-white text-blue-600 text-xl rounded font-semibold transition-all hover:bg-zinc-200 hover:text-neutral-600 hover:scale-110 sm:text-2xl sm:px-6 sm:py-3 lg:rounded-lg xl:block"
-            >
-              Talk to an Expert
-            </Link>
           </div>
         </section>
       </section>
