@@ -1,5 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faUsers, faEarthAmerica, faPhone, faMoneyBill, faNetworkWired, faDollar, faMessage, faCircleCheck } from "@fortawesome/free-solid-svg-icons"
+import {
+  faUsers,
+  faEarthAmerica,
+  faPhone,
+  faMoneyBill,
+  faNetworkWired,
+  faDollar,
+  faMessage,
+  faCircleCheck,
+  faTrophy,
+  faThumbsUp,
+  faCalendar
+} from "@fortawesome/free-solid-svg-icons"
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -83,6 +95,37 @@ export default function Page() {
           </section>
         </section>
         <iframe src="https://www.youtube.com/embed/Hxs8EZG8FMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="w-full aspect-video xl:w-5/12 2xl:w-4/12"></iframe>
+      </section>
+
+      <section className="w-full flex flex-wrap items-stretch justify-stretch text-white text-2xl sm:text-3xl">
+        <div className="relative w-full bg-[#c4a420] h-52 overflow-hidden sm:w-1/2 xl:w-1/4">
+          <FontAwesomeIcon icon={faTrophy} className="h-5/6 text-[#0000001a] absolute -right-10 top-1/2 -translate-y-1/2" />
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-left w-3/4">
+            <p className="mb-8">DIDX Awards</p>
+            <a href="" className="border-2 border-white px-4 py-1 rounded text-xl transition-colors sm:text-2xl sm:px-6 sm:py-2 sm:rounded-md hover:bg-white hover:text-neutral-700">view</a>
+          </div>
+        </div>
+        <div className="relative w-full bg-[#34495e] h-52 overflow-hidden sm:w-1/2 xl:w-1/4">
+          <FontAwesomeIcon icon={faThumbsUp} className="h-5/6 text-[#0000001a] absolute -right-10 top-1/2 -translate-y-1/2" />
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-left w-3/4">
+            <p className="mb-8">DIDX Partners</p>
+            <a href="" className="border-2 border-white px-4 py-1 rounded text-xl transition-colors sm:text-2xl sm:px-6 sm:py-2 sm:rounded-md hover:bg-white hover:text-neutral-700">view</a>
+          </div>
+        </div>
+        <div className="relative w-full bg-[#e74c3c] h-52 overflow-hidden sm:w-1/2 xl:w-1/4">
+          <FontAwesomeIcon icon={faUsers} className="h-5/6 text-[#0000001a] absolute -right-10 top-1/2 -translate-y-1/2" />
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-left w-3/4">
+            <p className="mb-8">DIDX Members</p>
+            <a href="" className="border-2 border-white px-4 py-1 rounded text-xl transition-colors sm:text-2xl sm:px-6 sm:py-2 sm:rounded-md hover:bg-white hover:text-neutral-700">view</a>
+          </div>
+        </div>
+        <div className="relative w-full bg-[#1abc9c] h-52 overflow-hidden sm:w-1/2 xl:w-1/4">
+          <FontAwesomeIcon icon={faCalendar} className="h-5/6 text-[#0000001a] absolute -right-10 top-1/2 -translate-y-1/2" />
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-left w-3/4">
+            <p className="mb-8">DIDX Events</p>
+            <a href="" className="border-2 border-white px-4 py-1 rounded text-xl transition-colors sm:text-2xl sm:px-6 sm:py-2 sm:rounded-md hover:bg-white hover:text-neutral-700">view</a>
+          </div>
+        </div>
       </section>
     </main>
   )
