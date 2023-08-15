@@ -17,7 +17,7 @@ export default function Footer() {
 	return(
 		<footer className="w-full flex flex-col bg-neutral-700">
 			<div className="flex flex-col px-4 py-8 lg:flex-row lg:gap-x-10 lg:px-28 xl:px-30">
-				<div className="w-full flex flex-col gap-y-3 text-neutral-300 font-semibold">
+				<div className="w-full flex flex-col gap-y-3 text-neutral-300 font-`">
 					<Image
 						src={logo}
 						alt="DIDX Inc logo"
@@ -28,7 +28,7 @@ export default function Footer() {
 					<p><span className="text-sm font-medium">Email:</span><br />sales@didxnet</p>
 				</div>
 
-				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-semibold">
+				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-medium">
 					<p className="text-white text-2xl mt-6 mb-4">DIDx Seller & Buyer</p>
 					<Link className="transition-colors hover:text-neutral-500" href="/clec"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>CLECs Sell Numbers</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/toll-free-numbers"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Toll Free Numbers</Link>
@@ -44,7 +44,7 @@ export default function Footer() {
 					</Link>
 				</nav>
 
-				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-semibold">
+				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-medium">
 					<p className="text-white text-2xl mt-6 mb-4">Sample Configuration</p>
 					<Link className="transition-colors hover:text-neutral-500" href="/asterisk"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Asterisk</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/voip-switch"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>VOIP Switch</Link>
@@ -54,7 +54,7 @@ export default function Footer() {
 					<Image src={isoCertificateImg} alt="ISO 9001:2008 registeration mark" />
 				</nav>
 
-				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-semibold">
+				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-medium">
 					<p className="text-white text-2xl mt-6 mb-4">Subscribe To Our Newsletter</p>
 					<input type="text" name="email" placeholder="Email*" className="py-1 px-2 rounded my-2 border border-white bg-neutral-800 outline-none placeholder:text-white"/><br />
 					<button className="text-white bg-blue-600 px-3 py-1.5 rounded transition-colors hover:text-blue-600 hover:bg-white">Join List</button>
