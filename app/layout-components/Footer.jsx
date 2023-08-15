@@ -74,7 +74,7 @@ export default function Footer() {
 
 			<div className="w-full min-h-20 flex flex-wrap gap-2 justify-between px-4 py-6 bg-neutral-800 text-neutral-300 lg:px-28 xl:px-30">
 				<p>
-					DIDX is Link Delaware based company since 2005. Copyrights 2005-{new Date().toLocaleString('en-us', { year: "numeric" })}
+					DIDX is Link Delaware based company since 2005. &#169; {new Date().toLocaleString('en-us', { year: "numeric" })} DIDX, Inc.
 					<br />
 					<span className="text-neutral-300 text-sm">
 						<Link className="transition-colors hover:text-neutral-500" href="/terms">Terms of Services</Link> |
