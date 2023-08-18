@@ -1,8 +1,20 @@
+'use client'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
-import Image from 'next/image'
 import logo from '../../public/didx-logo.png'
 import Script from 'next/script'
+import countries from './countries.json'
+
+function addOptionContent({ target }) {
+  const options = Array.from(target.options)
+  options.forEach(item => item.textContent = item.dataset.name)
+}
+
+function removeOptionContent({ target }) {
+  const options = Array.from(target.options)
+  options.forEach(item => item.textContent = `${item.dataset.flag} ${item.value}`)
+}
 
 export default function Page() {
   return (
@@ -11,12 +23,7 @@ export default function Page() {
         <div className="flex-1 flex flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
           <div className="mx-auto w-full max-w-md">
             <div>
-              {/*<Image
-                src={logo}
-                className="w-28 h-auto"
-                alt="DIDX Inc logo"
-              />*/}
-              <h2 className="mt-6 text-3xl font-semibold text-neutral-700">Sign up to create your account</h2>
+              <h2 className="mt-6 text-3xl font-semibold text-neutral-600">Sign up to create your account</h2>
               <p className="mt-6 text-base text-gray-600">
                 Or{' '}
                 <a href="/signin" className="font-medium text-blue-600 hover:text-blue-600">
@@ -27,7 +34,7 @@ export default function Page() {
             <div className="mt-6">
               <form action="#" method="POST" className="space-y-6">
                 <div>
-                  <label htmlFor="email" className="block text-base font-semibold text-neutral-700">
+                  <label htmlFor="email" className="block font-semibold text-neutral-600">
                     Email *
                   </label>
                   <div className="mt-1">
@@ -38,13 +45,13 @@ export default function Page() {
                       autoComplete="email"
                       required
                       placeholder="business emails only"
-                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
+                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="first-name" className="block text-base font-semibold text-neutral-700">
+                  <label htmlFor="first-name" className="block font-semibold text-neutral-600">
                     First Name *
                   </label>
                   <div className="mt-1">
@@ -55,13 +62,13 @@ export default function Page() {
                       autoComplete="first-name"
                       required
                       placeholder="John"
-                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
+                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="last-name" className="block text-base font-semibold text-neutral-700">
+                  <label htmlFor="last-name" className="block font-semibold text-neutral-600">
                     last Name *
                   </label>
                   <div className="mt-1">
@@ -72,13 +79,13 @@ export default function Page() {
                       autoComplete="last-name"
                       required
                       placeholder="Doe"
-                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
+                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     />
                   </div>
                 </div>
 
                 <div className="">
-                  <label htmlFor="customer-type" className="block text-base font-semibold text-neutral-700">
+                  <label htmlFor="customer-type" className="block font-semibold text-neutral-600">
                     I want to *
                   </label>
                   <div className="mt-1">
@@ -86,7 +93,7 @@ export default function Page() {
                       id="customer-type"
                       name="customer-type"
                       required
-                      className="mt-1 block w-full py-2 px-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
+                      className="mt-1 block w-full py-2 px-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     >
                       <option defaultValue value="customer">Buy DIDS on DIDX</option>
                       <option value="vendor">Sell DIDS on DIDX</option>
@@ -95,7 +102,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                  <label htmlFor="comapny-name" className="block text-base font-semibold text-neutral-700">
+                  <label htmlFor="comapny-name" className="block font-semibold text-neutral-600">
                     Company Name *
                   </label>
                   <div className="mt-1">
@@ -106,31 +113,31 @@ export default function Page() {
                       autoComplete="comapny-name"
                       required
                       placeholder="John Cyber Inc"
-                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
+                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="company-website" className="block text-base font-semibold text-neutral-700">
+                  <label htmlFor="company-website" className="block font-semibold text-neutral-600">
                     Company Website
                   </label>
                   <div className="mt-1 flex rounded-md shadow-sm">
-                    <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-base">
+                    <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm">
                       https://
                     </span>
                     <input
                       type="text"
                       name="company-website"
                       id="company-website"
-                      className="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md focus:ring-blue-600 focus:border-blue-600 sm:text-base border-gray-300 border"
+                      className="flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md focus:ring-blue-600 focus:border-blue-600 sm border-gray-300 border outline-none"
                       placeholder="john-cyber.com"
                     />
                   </div>
                 </div>
 
                 <div className="">
-                  <label htmlFor="country" className="block text-base font-semibold text-neutral-700">
+                  <label htmlFor="country" className="block font-semibold text-neutral-600">
                     Country *
                   </label>
                   <div className="mt-1">
@@ -138,15 +145,16 @@ export default function Page() {
                       id="country"
                       name="country"
                       required
-                      className="mt-1 block w-full py-2 px-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
+                      className="mt-1 block w-full py-3 px-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     >
+                      {countries.map(country => (<option key={country.iso_code} value={country.iso_code}>{country.name}</option>))}
                     </select>
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="phone-number" className="block text-base font-semibold text-neutral-700">
-                    Phone Number
+                  <label htmlFor="company-phone" className="block font-semibold text-neutral-600">
+                    Company Phone *
                   </label>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <div className="absolute inset-y-0 left-0 flex items-center">
@@ -154,51 +162,77 @@ export default function Page() {
                         Country
                       </label>
                       <select
-                        id="country"
-                        name="country"
+                        onFocus={addOptionContent}
+                        onBlur={removeOptionContent}
+                        onChange={e => e.target.blur()}
                         autoComplete="country"
-                        className="focus:ring-blue-600 focus:border-blue-600 h-full py-0 pl-3 pr-7 border-transparent bg-transparent text-gray-500 sm:text-base rounded-md"
+                        className="h-full w-28 py-0 pl-3 border-gray-300 border bg-white rounded-l-md outline-none focus:ring-blue-600 focus:border-blue-600"
                       >
-                        <option defaultValue>US</option>
-                        <option>CA</option>
-                        <option>EU</option>
+                        {countries.map(country => (
+                          <option key={country.iso_code} data-name={country.name} data-flag={country.flag_emoji} value={country.mobile_code}>
+                            {country.flag_emoji} {country.mobile_code}
+                          </option>
+                        ))}
                       </select>
                     </div>
                     <input
+                      type="tel"
+                      required
+                      name="company-phone"
+                      id="company-phone"
+                      className="block w-full py-2 pl-32 border-gray-300 border rounded-md outline-none focus:ring-blue-600 focus:border-blue-600"
+                      placeholder="555 987 6543"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label htmlFor="personal-phone" className="block font-semibold text-neutral-600">
+                    Personal Phone *
+                  </label>
+                  <div className="mt-1 relative rounded-md shadow-sm">
+                    <div className="absolute inset-y-0 left-0 flex items-center">
+                      <label htmlFor="country" className="sr-only">
+                        Country
+                      </label>
+                      <select
+                        onFocus={addOptionContent}
+                        onBlur={removeOptionContent}
+                        onChange={e => e.target.blur()}
+                        autoComplete="country"
+                        className="h-full w-28 py-0 pl-3 border-gray-300 border bg-white rounded-l-md outline-none focus:ring-blue-600 focus:border-blue-600"
+                      >
+                        {countries.map(country => (
+                          <option key={country.iso_code} data-name={country.name} data-flag={country.flag_emoji} value={country.mobile_code}>
+                            {country.flag_emoji} {country.mobile_code}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    <input
+                      type="tel"
+                      required
+                      name="personal-phone"
+                      id="personal-phone"
+                      className="block w-full py-2 pl-32 border-gray-300 border rounded-md outline-none focus:ring-blue-600 focus:border-blue-600"
+                      placeholder="555 987 6543"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label htmlFor="referral" className="block font-semibold text-neutral-600">
+                    Referral Code
+                  </label>
+                  <div className="mt-1">
+                    <input
+                      id="referral"
+                      name="referral"
                       type="text"
-                      name="phone-number"
-                      id="phone-number"
-                      className="focus:ring-blue-600 focus:border-blue-600 block w-full pl-16 sm:text-base border-gray-300 rounded-md"
-                      placeholder="+1 (555) 987-6543"
-                    />
-                  </div>
-                </div>
-
-                <div className="space-y-1">
-                  <label htmlFor="password" className="block text-base font-semibold text-neutral-700">
-                    Create Password *
-                  </label>
-                  <div className="mt-1">
-                    <input
-                      id="password"
-                      name="password"
-                      type="password"
-                      autoComplete="current-password"
+                      autoComplete="referral"
                       required
-                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
-                    />
-                  </div>
-                </div>
-
-                <div className="space-y-1">
-                  <label className="block text-base font-semibold text-neutral-700">
-                    Confirm Password *
-                  </label>
-                  <div className="mt-1">
-                    <input
-                      type="password"
-                      required
-                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm:text-base"
+                      placeholder="Enter referral code and get free $200"
+                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     />
                   </div>
                 </div>
@@ -212,7 +246,7 @@ export default function Page() {
                       type="checkbox"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-600 border-gray-300 rounded"
                     />
-                    <label htmlFor="remember-me" className="ml-2 block text-base text-gray-900">
+                    <label htmlFor="remember-me" className="ml-2 block text-gray-900">
                       I am or will be an Internet telephone service provider.
                     </label>
                   </div>
@@ -225,7 +259,7 @@ export default function Page() {
                       type="checkbox"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-600 border-gray-300 rounded"
                     />
-                    <label htmlFor="remember-me" className="ml-2 block text-base text-gray-900">
+                    <label htmlFor="remember-me" className="ml-2 block text-gray-900">
                       I have read the 
                       <a href="/terms" className="text-blue-600 text-lg"> (terms) </a>
                       of service and fully agree to this.
@@ -239,7 +273,7 @@ export default function Page() {
                 <div>
                   <button
                     type="submit"
-                    className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
+                    className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm font-medium text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
                   >
                     Sign in
                   </button>
