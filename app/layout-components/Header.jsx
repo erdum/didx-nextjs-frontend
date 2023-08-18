@@ -32,7 +32,7 @@ export default function Header() {
 	}, [isMenuOpen])
 
 	return (
-		<header className="w-full h-20 px-3 flex items-center flex-wrap bg-white sticky top-0 z-50 lg:h-24 lg:px-8">
+		<header className="w-full h-20 px-3 flex items-center flex-wrap bg-white sticky top-0 z-50 shadow-md lg:h-24 lg:px-8">
 			<Link href="/" className="mr-auto">
 				<Image
 					src={logo}
