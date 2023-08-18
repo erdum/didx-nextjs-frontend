@@ -1,19 +1,9 @@
-'use client'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLock } from '@fortawesome/free-solid-svg-icons'
-import logo from '../../public/didx-logo.png'
 import Script from 'next/script'
-import countries from './countries.json'
+import PhoneInput from '../layout-components/phoneInput'
+import countries from '../layout-components/countries.json'
 
-function addOptionContent({ target }) {
-  const options = Array.from(target.options)
-  options.forEach(item => item.textContent = item.dataset.name)
-}
-
-function removeOptionContent({ target }) {
-  const options = Array.from(target.options)
-  options.forEach(item => item.textContent = `${item.dataset.flag} ${item.value}`)
+export const metadata = {
+  title: 'Sign Up for Global Virtual Phone Numbers - Join DIDX' 
 }
 
 export default function Page() {
@@ -152,73 +142,9 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div>
-                  <label htmlFor="company-phone" className="block font-semibold text-neutral-600">
-                    Company Phone *
-                  </label>
-                  <div className="mt-1 relative rounded-md shadow-sm">
-                    <div className="absolute inset-y-0 left-0 flex items-center">
-                      <label htmlFor="country" className="sr-only">
-                        Country
-                      </label>
-                      <select
-                        onFocus={addOptionContent}
-                        onBlur={removeOptionContent}
-                        onChange={e => e.target.blur()}
-                        autoComplete="country"
-                        className="h-full w-28 py-0 pl-3 border-gray-300 border bg-white rounded-l-md outline-none focus:ring-blue-600 focus:border-blue-600"
-                      >
-                        {countries.map(country => (
-                          <option key={country.iso_code} data-name={country.name} data-flag={country.flag_emoji} value={country.mobile_code}>
-                            {country.flag_emoji} {country.mobile_code}
-                          </option>
-                        ))}
-                      </select>
-                    </div>
-                    <input
-                      type="tel"
-                      required
-                      name="company-phone"
-                      id="company-phone"
-                      className="block w-full py-2 pl-32 border-gray-300 border rounded-md outline-none focus:ring-blue-600 focus:border-blue-600"
-                      placeholder="555 987 6543"
-                    />
-                  </div>
-                </div>
+                <PhoneInput title="Company Phone" name="company-phone" />
 
-                <div>
-                  <label htmlFor="personal-phone" className="block font-semibold text-neutral-600">
-                    Personal Phone *
-                  </label>
-                  <div className="mt-1 relative rounded-md shadow-sm">
-                    <div className="absolute inset-y-0 left-0 flex items-center">
-                      <label htmlFor="country" className="sr-only">
-                        Country
-                      </label>
-                      <select
-                        onFocus={addOptionContent}
-                        onBlur={removeOptionContent}
-                        onChange={e => e.target.blur()}
-                        autoComplete="country"
-                        className="h-full w-28 py-0 pl-3 border-gray-300 border bg-white rounded-l-md outline-none focus:ring-blue-600 focus:border-blue-600"
-                      >
-                        {countries.map(country => (
-                          <option key={country.iso_code} data-name={country.name} data-flag={country.flag_emoji} value={country.mobile_code}>
-                            {country.flag_emoji} {country.mobile_code}
-                          </option>
-                        ))}
-                      </select>
-                    </div>
-                    <input
-                      type="tel"
-                      required
-                      name="personal-phone"
-                      id="personal-phone"
-                      className="block w-full py-2 pl-32 border-gray-300 border rounded-md outline-none focus:ring-blue-600 focus:border-blue-600"
-                      placeholder="555 987 6543"
-                    />
-                  </div>
-                </div>
+                <PhoneInput title="Personal Phone" name="personal-phone" />
 
                 <div>
                   <label htmlFor="referral" className="block font-semibold text-neutral-600">
