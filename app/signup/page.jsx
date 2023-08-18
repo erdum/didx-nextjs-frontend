@@ -1,4 +1,5 @@
 import Script from 'next/script'
+import Link from 'next/link'
 import PhoneInput from '../layout-components/phoneInput'
 import countries from '../layout-components/countries.json'
 
@@ -16,9 +17,9 @@ export default function Page() {
               <h2 className="mt-6 text-3xl font-semibold text-neutral-600">Sign up to create your account</h2>
               <p className="mt-6 text-base text-gray-600">
                 Or{' '}
-                <a href="/signin" className="font-medium text-blue-600 hover:text-blue-600">
+                <Link href="/login" className="font-medium text-blue-600 hover:text-blue-600">
                   login if you have an account
-                </a>
+                </Link>
               </p>
             </div>
             <div className="mt-6">
@@ -187,7 +188,7 @@ export default function Page() {
                     />
                     <label htmlFor="remember-me" className="ml-2 block text-gray-900">
                       I have read the 
-                      <a href="/terms" className="text-blue-600 text-lg"> (terms) </a>
+                      <Link href="/terms" className="text-blue-600 text-lg"> (terms) </Link>
                       of service and fully agree to this.
                     </label>
                   </div>
