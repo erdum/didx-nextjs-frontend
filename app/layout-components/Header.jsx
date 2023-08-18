@@ -53,7 +53,7 @@ export default function Header() {
 				{MENULINKS.map((item) => (
 					<Link key={item.name} className="hover:text-blue-600 transition-colors" href={item.link}>{item.name}</Link>
 				))}
-				<Link className="text-blue-600 hover:text-zinc-700 transition-colors" href="/signin">Sign in</Link>
+				<Link className="text-blue-600 hover:text-zinc-700 transition-colors" href="/login">Sign in</Link>
 			</nav>
 		</header>
 	);
