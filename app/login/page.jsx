@@ -11,9 +11,9 @@ export default function Page() {
               <h2 className="mt-6 text-3xl font-semibold text-neutral-600">Login in to your account</h2>
               <p className="mt-6 text-base text-gray-600">
                 Or{' '}
-                <a href="/signup" className="font-medium text-blue-600 hover:text-blue-600">
+                <Link href="/signup" className="font-medium text-blue-600 hover:text-blue-600">
                   signup if you don't have an account
-                </a>
+                </Link>
               </p>
             </div>
             <div className="mt-6">
