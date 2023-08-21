@@ -11,7 +11,7 @@ export default function Page() {
 			<BreadCrumb title={metadata.title} />
 			<StandardPage>
 				<section className="xl:w-9/12">
-					<Heading>Buy DIDS From US</Heading>
+					<Heading>Buy DIDS From Us</Heading>
 					<Paragraph>
 						DIDx.net empowers VoIP phone companies to offer phone service from different areas of the world to its end-users.
 					</Paragraph>
