@@ -16,7 +16,7 @@ export function Heading({ children }) {
 
 export function Paragraph({ children }) {
 	return (
-		<p className="text-neutral-700 my-6">{ children }</p>
+		<p className="text-neutral-700 mb-6">{ children }</p>
 	)
 }
 
