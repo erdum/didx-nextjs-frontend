@@ -16,7 +16,7 @@ import isoCertificateImg from "../../public/iso-certificate.png"
 export default function Footer() {
 	return(
 		<footer className="w-full flex flex-col bg-neutral-700">
-			<div className="flex flex-col px-4 py-8 lg:flex-row lg:gap-x-10 lg:px-28 xl:px-30">
+			<div className="flex flex-col px-4 py-8 lg:flex-row lg:gap-x-10 lg:px-28 xl:px-32">
 				<div className="w-full flex flex-col gap-y-3 text-neutral-300 font-`">
 					<Image
 						src={logo}
