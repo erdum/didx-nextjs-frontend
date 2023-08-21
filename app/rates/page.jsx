@@ -34,7 +34,7 @@ export default function Page() {
 
 					<SubHeading>DID Charges:</SubHeading>
 					<Paragraph>
-						The did Charges are <Anchor href="/did">listed here</Anchor>
+						The did Charges are <Anchor href="/coverage">listed here</Anchor>
 					</Paragraph>
 
 					<SubHeading>Listing Charges:</SubHeading>
