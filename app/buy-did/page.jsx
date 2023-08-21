@@ -1,5 +1,5 @@
 import BreadCrumb from '../layout-components/breadCrumb'
-import { StandardPage, SubHeading, SmallHeading, Paragraph, Anchor } from '../layout-components/standardPage'
+import { StandardPage, Heading, SmallHeading, Paragraph, Anchor } from '../layout-components/standardPage'
 
 export const metadata = {
 	'title': 'Buy DIDS For Your Customers | DIDX'
@@ -11,9 +11,10 @@ export default function Page() {
 			<BreadCrumb title={metadata.title} />
 			<StandardPage>
 				<section className="xl:w-9/12">
-					<SubHeading>
+					<Heading>Buy DIDS From US</Heading>
+					<Paragraph>
 						DIDx.net empowers VoIP phone companies to offer phone service from different areas of the world to its end-users.
-					</SubHeading>
+					</Paragraph>
 
 					<SmallHeading>No Membership fee:</SmallHeading>
 					<Paragraph>There is no Membership fees to register yourself at DIDx.</Paragraph>
