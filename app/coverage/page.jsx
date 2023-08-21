@@ -94,7 +94,7 @@ const values = [
   ['+386', 'Slovenia', 2],
   ['+27', 'South Africa', 2],
   ['+82', 'South Korea', 2],
-  ['+34', '', 2],
+  ['+34', 'Spain', 2],
   ['+249', 'Sudan', 2],
   ['+49', 'Sweden', 2],
   ['+41', 'Switzerland', 2],
