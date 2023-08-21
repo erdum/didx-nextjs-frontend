@@ -10,7 +10,7 @@ export function StandardPage({ children }) {
 
 export function Heading({ children }) {
 	return (
-		<h2 className="uppercase mb-6 mt-10 text-xl text-neutral-600 font-semibold">{ children }</h2>
+		<h2 className="uppercase mb-6 mt-10 text-2xl text-neutral-600 font-semibold">{ children }</h2>
 	)
 }
 
