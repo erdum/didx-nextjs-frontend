@@ -22,7 +22,7 @@ export function SubHeading({ children }) {
 
 export function SmallHeading({ children }) {
 	return (
-		<h3 className="mb-4 mt-8 text-base text-neutral-700 font-semibold">{ children }</h3>
+		<h3 className="mb-2 mt-8 text-base text-neutral-700 font-semibold">{ children }</h3>
 	)
 }
 
