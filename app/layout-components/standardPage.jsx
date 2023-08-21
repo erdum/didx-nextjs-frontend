@@ -16,7 +16,7 @@ export function Heading({ children }) {
 
 export function SubHeading({ children }) {
 	return (
-		<h3 className="mb-4 mt-8 text-xl text-neutral-500 font-semibold">{ children }</h3>
+		<h3 className="mb-4 mt-8 text-xl text-neutral-600 font-semibold">{ children }</h3>
 	)
 }
 
