@@ -17,17 +17,17 @@ export default function Page() {
               </p>
             </div>
             <div className="mt-6">
-              <form action="#" method="POST">
+              <form action="https://admin.didx.net/LoginAction.php" method="POST">
                 <div className="my-6">
-                  <label htmlFor="email" className="block font-semibold text-neutral-600">
-                    Email or UID *
+                  <label htmlFor="UID" className="block font-semibold text-neutral-600">
+                    UID *
                   </label>
                   <div className="mt-1">
                     <input
-                      id="email"
-                      name="email"
-                      type="email"
-                      autoComplete="email"
+                      id="UID"
+                      name="UID"
+                      type="UID"
+                      autoComplete="UID"
                       required
                       className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     />
@@ -41,7 +41,7 @@ export default function Page() {
                   <div className="mt-1">
                     <input
                       id="password"
-                      name="password"
+                      name="Pass"
                       type="password"
                       autoComplete="password"
                       required
