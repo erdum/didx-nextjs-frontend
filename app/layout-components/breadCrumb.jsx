@@ -8,7 +8,7 @@ export default function BreadCrumb({ title }) {
 
 	return (
 		<section className="w-full min-h-[64px] bg-zinc-100 flex flex-wrap items-center justify-between px-4 py-2 gap-y-4 xl:px-40 2xl:px-72">
-			<p className="text-neutral-600 text-lg">{ title }</p>
+			<p className="text-neutral-600 text-lg">{ title.split('|')[0] }</p>
 
 			<nav className="text-neutral-500 text-sm font-semibold flex gap-x-1">
 				{path.map((item, index) => {
