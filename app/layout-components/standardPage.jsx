@@ -37,3 +37,22 @@ export function Anchor({ children, href = "" }) {
 		<Link href={href} className="text-[#2196f3] inline font-semibold">{ children }</Link>
 	)
 }
+
+export function Table({ headings, values }) {
+	return (
+		<table className="w-full border text-left">
+			<thead>
+				<tr className="border-black border-b-2 divide-x">
+					{headings.map(value => (<th className="p-2">{value}</th>))}
+				</tr>
+			</thead>
+			<tbody className="divide-y">
+				{values.map(row => (
+					<tr className="divide-x odd:bg-neutral-100">
+						{row.map(value => (<td className="p-2">{value}</td>))}
+					</tr>
+				))}
+			</tbody>
+		</table>
+	)
+}
