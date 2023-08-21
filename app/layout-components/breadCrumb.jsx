@@ -7,10 +7,10 @@ export default function BreadCrumb({ title }) {
 	const path = usePathname().split('/')
 
 	return (
-		<section className="w-full h-24 bg-zinc-100 flex flex-wrap items-center justify-between px-4 py-2 xl:h-16 xl:px-32">
-			<p className="w-full text-neutral-600 text-lg xl:w-auto">{ title }</p>
+		<section className="w-full min-h-[64px] bg-zinc-100 flex flex-wrap items-center justify-between px-4 py-2 gap-y-4 xl:px-32">
+			<p className="text-neutral-600 text-lg">{ title }</p>
 
-			<nav className="w-full text-neutral-500 text-sm font-semibold flex gap-x-1 xl:w-auto">
+			<nav className="text-neutral-500 text-sm font-semibold flex gap-x-1">
 				{path.map((item, index) => {
 
 					if (index === 0) {
