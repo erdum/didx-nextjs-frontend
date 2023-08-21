@@ -7,7 +7,8 @@ import logo from "../../public/didx-logo.png"
 
 const MENULINKS = [
 	{name: "About us", link: "/about-us"},
-	{name: "Buy & Sell", link: "/buy-sell"},
+	{name: "Buy DID", link: "/buy-did"},
+	{name: "Sell DID", link: "/sell-did"},
 	{name: "Rates", link: "/rates"},
 	{name: "Features", link: "/features"},
 	{name: "Coverage", link: "/coverage"},
