@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function StandardPage({ children }) {
 	return (
-		<main className="w-full flex flex-col gap-2 px-4 py-8 text-base xl:px-72 xl:flex-row">
+		<main className="w-full flex flex-col gap-4 px-4 py-8 text-base xl:px-40 xl:flex-row 2xl:px-72">
 			{ children }
 		</main>
 	)
