@@ -21,7 +21,7 @@ export default function Page() {
 					</Paragraph>
 
 					<Paragraph>
-						<span className="font-semibold text-lg">* Discretion of our management</span>1
+						<span className="font-semibold text-lg">* Discretion of our management</span>
 					</Paragraph>
 				</section>
 			</StandardPage>
