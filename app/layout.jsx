@@ -1,5 +1,5 @@
-import Header from './layout-components/Header'
-import Footer from './layout-components/Footer'
+import Header from './layout-components/header'
+import Footer from './layout-components/footer'
 import Head from 'next/head'
 import './globals.css'
 import "@fortawesome/fontawesome-svg-core/styles.css"
