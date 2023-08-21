@@ -14,6 +14,18 @@ export function Heading({ children }) {
 	)
 }
 
+export function SubHeading({ children }) {
+	return (
+		<h3 className="mb-4 mt-8 text-xl text-neutral-500 font-semibold">{ children }</h3>
+	)
+}
+
+export function SmallHeading({ children }) {
+	return (
+		<h3 className="mb-4 mt-8 text-base text-neutral-700 font-semibold">{ children }</h3>
+	)
+}
+
 export function Paragraph({ children }) {
 	return (
 		<p className="text-neutral-700 mb-6">{ children }</p>
