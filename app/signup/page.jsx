@@ -23,7 +23,7 @@ export default function Page() {
               </p>
             </div>
             <div className="mt-6">
-              <form action="#" method="POST" className="space-y-6">
+              <form action="https://admin.didx.net/signup/NewSignupConfirm.php" method="POST" className="space-y-6">
                 <div>
                   <label htmlFor="email" className="block font-semibold text-neutral-600">
                     Email *
@@ -31,7 +31,7 @@ export default function Page() {
                   <div className="mt-1">
                     <input
                       id="email"
-                      name="email"
+                      name="CEmail"
                       type="email"
                       autoComplete="email"
                       required
@@ -48,7 +48,7 @@ export default function Page() {
                   <div className="mt-1">
                     <input
                       id="first-name"
-                      name="first-name"
+                      name="CFName"
                       type="text"
                       autoComplete="first-name"
                       required
@@ -65,7 +65,7 @@ export default function Page() {
                   <div className="mt-1">
                     <input
                       id="last-name"
-                      name="last-name"
+                      name="CLName"
                       type="text"
                       autoComplete="last-name"
                       required
@@ -82,12 +82,12 @@ export default function Page() {
                   <div className="mt-1">
                     <select
                       id="customer-type"
-                      name="customer-type"
+                      name="custype"
                       required
                       className="mt-1 block w-full py-2 px-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     >
-                      <option defaultValue value="customer">Buy DIDS on DIDX</option>
-                      <option value="vendor">Sell DIDS on DIDX</option>
+                      <option defaultValue value="1">Buy DIDS on DIDX</option>
+                      <option value="0">Sell DIDS on DIDX</option>
                     </select>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export default function Page() {
                   <div className="mt-1">
                     <input
                       id="comapny-name"
-                      name="comapny-name"
+                      name="CCompany"
                       type="text"
                       autoComplete="comapny-name"
                       required
@@ -134,7 +134,7 @@ export default function Page() {
                   <div className="mt-1">
                     <select
                       id="country"
-                      name="country"
+                      name="CCountry"
                       required
                       className="mt-1 block w-full py-3 px-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     >
@@ -143,9 +143,9 @@ export default function Page() {
                   </div>
                 </div>
 
-                <PhoneInput title="Company Phone" name="company-phone" />
+                <PhoneInput title="Company Phone" name="HTel1" />
 
-                <PhoneInput title="Personal Phone" name="personal-phone" />
+                <PhoneInput title="Personal Phone" name="mobileno" />
 
                 <div>
                   <label htmlFor="referral" className="block font-semibold text-neutral-600">
@@ -154,7 +154,7 @@ export default function Page() {
                   <div className="mt-1">
                     <input
                       id="referral"
-                      name="referral"
+                      name="AffiliationCode"
                       type="text"
                       autoComplete="referral"
                       required
@@ -170,6 +170,8 @@ export default function Page() {
                   <div className="flex items-center">
                     <input
                       required
+                      autocomplete="off"
+                      name="agree1"
                       type="checkbox"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-600 border-gray-300 rounded"
                     />
@@ -183,6 +185,8 @@ export default function Page() {
                   <div className="flex items-center">
                     <input
                       required
+                      autocomplete="off"
+                      name="agree2"
                       type="checkbox"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-600 border-gray-300 rounded"
                     />
