@@ -158,7 +158,7 @@ export default function Page() {
                       type="text"
                       autoComplete="referral"
                       required
-                      placeholder="Enter referral code and get free $200"
+                      placeholder="Enter referral code and get free $20"
                       className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-neutral-500 focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     />
                   </div>
