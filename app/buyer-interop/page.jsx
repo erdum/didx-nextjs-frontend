@@ -89,7 +89,7 @@ export default function Page() {
 						C. Be sure to include your DIDX account number in your message. We will verify your account, discuss your DID needs and activate your account.<br />
 					</Paragraph>
 					<Paragraph>
-						As an active member of DIDX, you can add us on MSN, Yahoo or Skype assistance regarding buying and/or selling DID phone numbers on DIDX.
+						As an active member of DIDX, you can <Anchor href="/contact-us">contact us</Anchor> assistance regarding buying and/or selling DID phone numbers on DIDX.
 					</Paragraph>
 					<Paragraph>
 						Your account should now be active, and you will be able to purchase and sell DIDs from the DIDX network.<br />
