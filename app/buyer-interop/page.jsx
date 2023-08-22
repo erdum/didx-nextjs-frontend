@@ -53,7 +53,7 @@ export default function Page() {
 						E. Click on My Purchased DIDs button in the left panel to see the two free numbers.
 					</Paragraph>
 
-					<Heading>Step 2:Checking the free phone numbers on your server</Heading>
+					<Heading>Step 2: Checking the free phone numbers on your server</Heading>
 					<SubHeading>AIM: To make sure DIDX numbers are working with your SIP/IAX Server.</SubHeading>
 					<Paragraph>
 						A. Click on My Purchased Numbers.<br />
