@@ -53,7 +53,7 @@ export default function Page() {
                 <Link href="/reset-password" className="inline-block my-2 text-blue-600">Forget Password</Link>
 
                 <Script src="https://www.google.com/recaptcha/api.js" />
-                <div className="g-recaptcha my-6" data-sitekey="your_site_key"></div>
+                <div className="g-recaptcha my-6" data-sitekey="6Le4oD0UAAAAAC5rb6AJF6TQjUYXSo76OwzsQ1Vd"></div>
 
                 <div>
                   <button

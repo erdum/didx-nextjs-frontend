@@ -199,7 +199,7 @@ export default function Page() {
                 </div>
 
                 <Script src="https://www.google.com/recaptcha/api.js" />
-                <div className="g-recaptcha" data-sitekey="your_site_key"></div>
+                <div className="g-recaptcha" data-sitekey="6Le4oD0UAAAAAC5rb6AJF6TQjUYXSo76OwzsQ1Vd"></div>
 
                 <div>
                   <button
