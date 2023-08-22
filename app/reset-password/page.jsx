@@ -11,7 +11,7 @@ export default function Page() {
               <h2 className="mt-6 text-3xl font-semibold text-neutral-600">Reset your password</h2>
             </div>
             <div className="mt-6">
-              <form action="https://new.didx.net/didxapi/Forgetpassword.php" method="GET">
+              <form action="https://admin.didx.net/password/ForgetPassword.php" method="GET">
                 <div className="my-6">
                   <label htmlFor="UID" className="block font-semibold text-neutral-600">
                     UID *
@@ -19,7 +19,7 @@ export default function Page() {
                   <div className="mt-1">
                     <input
                       id="UID"
-                      name="email"
+                      name="key"
                       type="UID"
                       autoComplete="UID"
                       required
