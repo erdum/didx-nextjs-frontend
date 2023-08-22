@@ -184,6 +184,12 @@ export default function Page() {
                   </div>
                 </div>
 
+                <div>
+                  <label htmlFor="g-recaptcha-response mt-4 text-gray-900">
+                    Captcha *
+                  </label>
+                </div>
+
                 <Script src="https://www.google.com/recaptcha/api.js" />
                 <div className="g-recaptcha" data-sitekey="6Le4oD0UAAAAAC5rb6AJF6TQjUYXSo76OwzsQ1Vd"></div>
 
