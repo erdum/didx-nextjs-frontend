@@ -120,7 +120,6 @@ export default function Page() {
 					<SubHeading>AIM: To make sure you understand how DIDX works and to participate in a brief survey.</SubHeading>
 					<Paragraph>
 						1.Call us at 1-408-884-1966 between 9am to 5pm Central US Time.<br />
-						2.Ask for Anas or Allision.<br />
 						3.Give your DIDX account number. We will verify your account, discuss your DID needs and activate your DIDX account.
 					</Paragraph>
 					<Paragraph>
