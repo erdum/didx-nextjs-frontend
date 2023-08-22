@@ -156,7 +156,7 @@ export default function Page() {
                   <div className="flex items-center">
                     <input
                       required
-                      autocomplete="off"
+                      autoComplete="off"
                       name="agree1"
                       type="checkbox"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-600 border-gray-300 rounded"
@@ -171,7 +171,7 @@ export default function Page() {
                   <div className="flex items-center">
                     <input
                       required
-                      autocomplete="off"
+                      autoComplete="off"
                       name="agree2"
                       type="checkbox"
                       className="h-4 w-4 text-blue-600 focus:ring-blue-600 border-gray-300 rounded"
