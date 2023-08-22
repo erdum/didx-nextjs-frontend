@@ -65,7 +65,7 @@ export default function Page() {
 						G. Keep at least one of the FREE DID pointed to your office SIP/IAX system, so we can make test call on it and reach you if needed.
 					</Paragraph>
 
-					<Heading>STEP 3: DTMF AND ECHO TEST</Heading>
+					<Heading>STEP 3: DTMF And Echo Test</Heading>
 					<SubHeading>AIM: To make sure that DTMF works on DIDX phone numbers for you.</SubHeading>
 					<Paragraph>
 						A. Point the DID’s on <Anchor>dtmftest@us1.didx.net</Anchor><br />
@@ -74,14 +74,14 @@ export default function Page() {
 					</Paragraph>
 
 
-					<Heading>STEP 4: DOCMENTATION</Heading>
+					<Heading>STEP 4: Documentation</Heading>
 					<Paragraph>
 						A. Download the Service Agreement. <a target="_blank" className="text-[#2196f3] font-semibold" href="/terms-of-service-agreement.pdf">Click Here to Download Newest Version to Buy</a><br />
 						B. Login to your DIDX account, and click on Profile button on the left menu bar.<br />
 						C. Upload the agreement, filled, signed, and initialed on each page, via the Upload document section in the PROFILE section of your DIDX account.<br />
 					</Paragraph>
 
-					<Heading>STEP 5: ACTIVATION CALL</Heading>
+					<Heading>STEP 5: Activation Call</Heading>
 					<SubHeading>AIM: To make sure you understand how DIDX works and to participate in a brief survey.</SubHeading>
 					<Paragraph>
 						A. Make sure to complete the profile section of your DIDx.net account.<br />
