@@ -86,8 +86,8 @@ export default function Page() {
                       required
                       className="mt-1 block w-full py-2 px-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-600 focus:border-blue-600 sm"
                     >
-                      <option defaultValue value="1">Buy DIDS on DIDX</option>
-                      <option value="0">Sell DIDS on DIDX</option>
+                      <option defaultValue value="0">Buy DIDS on DIDX</option>
+                      <option value="1">Sell DIDS on DIDX</option>
                     </select>
                   </div>
                 </div>
