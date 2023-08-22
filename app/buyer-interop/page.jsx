@@ -38,7 +38,7 @@ export default function Page() {
 					<Paragraph>
 						Step 1: Get the FREE numbers.<br />
 						Step 2: Check the numbers on your server.<br />
-						Step 3: DTMF And ECHO Test.<br />
+						Step 3: DTMF and ECHO Test.<br />
 						Step 4: Fax or scan and Upload the DIDX service agreement and credit card agreement with copies of related documents.<br />
 						Step 5: Activation call and then your account is activated. See below more details of each step.
 					</Paragraph>
@@ -65,7 +65,7 @@ export default function Page() {
 						G. Keep at least one of the FREE DID pointed to your office SIP/IAX system, so we can make test call on it and reach you if needed.
 					</Paragraph>
 
-					<Heading>STEP 3: DTMF And Echo Test</Heading>
+					<Heading>STEP 3: DTMF and Echo Test</Heading>
 					<SubHeading>AIM: To make sure that DTMF works on DIDX phone numbers for you.</SubHeading>
 					<Paragraph>
 						A. Point the DID’s on <Anchor>dtmftest@us1.didx.net</Anchor><br />
