@@ -47,6 +47,9 @@ export default function Page() {
 							<SubHeading>NOC Whatsapp</SubHeading>
 							<Paragraph>+1-212-365-6919</Paragraph>
 						</div>
+
+						<h3 className="w-full text-center text-neutral-600 text-lg">Customer Service: Please login to your account, and click on Contact Us to make a trouble ticket.</h3>
+						<h3 className="w-full text-center text-neutral-600 text-lg">We DO NOT provide phone support. (No Customer Service Provided without a Complaint Ticket)</h3>
 					</section>
 				</section>
 			</StandardPage>
