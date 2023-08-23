@@ -25,7 +25,7 @@ export default function Footer() {
 					/>
 					<p>DIDX is Link Delaware based company since 2005, working in the field of Telecom solutions.</p>
 					<p><span className="text-sm font-medium">Address:</span><br />PO Box 192750 #22079 San Francisco, CA 94119</p>
-					<p><span className="text-sm font-medium">Email:</span><br />sales@didxnet</p>
+					<p><span className="text-sm font-medium">Email:</span><br />sales@didx.net</p>
 				</div>
 
 				<nav className="w-full flex flex-col items-start gap-y-3 text-neutral-300 font-medium">
