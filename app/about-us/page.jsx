@@ -19,7 +19,7 @@ export default function Page() {
 
 					<Heading>Why Do We <span className="text-[#2196f3]">Do</span>?</Heading>
 					<Paragraph>
-						DIDX was created initially because we needed to buy phone numbers for our own services like <Anchor>ip-pabx.com</Anchor>, <Anchor>virtualphoneline.com</Anchor> and <Anchor>super-phone.com</Anchor> but when we went out there to look for numbers, no one was willing to sell in small qty and being a small company we needed smaller qty’s.
+						DIDX was created initially because we needed to buy phone numbers for our own services like <Anchor href="https://ip-pabx.com">ip-pabx.com</Anchor>, <Anchor href="https://virtualphoneline.com">virtualphoneline.com</Anchor> and <Anchor href="https://super-phone.com">super-phone.com</Anchor> but when we went out there to look for numbers, no one was willing to sell in small qty and being a small company we needed smaller qty’s.
 					</Paragraph>
 
 					<Paragraph>
