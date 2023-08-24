@@ -34,7 +34,7 @@ export default function Footer() {
 					<Link className="transition-colors hover:text-neutral-500" href="/toll-free-numbers"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Toll Free Numbers</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/case-study"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Case Study</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/testimonial"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Testimonial</Link>
-					<Link className="transition-colors hover:text-neutral-500" href="/coverage-area"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Coverage Area</Link>
+					<Link className="transition-colors hover:text-neutral-500" href="/coverage"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Coverage Area</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/lnp-lookup"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>LNP Lookup</Link>
 					<Link className="transition-colors hover:text-neutral-500" href="/our-team"><FontAwesomeIcon icon={faArrowRight} className="mr-2"/>Our Team</Link>
 					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400 sm:w-2/5 xl:w-full"></span>
