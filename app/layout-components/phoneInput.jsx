@@ -38,6 +38,7 @@ export default function PhoneInput({ title, name, required = true }) {
           </select>
         </div>
         <input
+          maxLength={10}
           type="tel"
           required={required}
           name={name}
