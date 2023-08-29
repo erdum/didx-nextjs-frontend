@@ -22,7 +22,7 @@ export default function Page() {
 						These DIDs test successfully. They are pointed at <Anchor>radio@us1.didx.net</Anchor> that plays an IVR when called. Check the numbers by calling them to see they are alive and reachable from your telephone.
 					</Paragraph>
 					<Paragraph>
-						Browse a copy of the DIDX member <Anchor href="/manual">manual</Anchor> in PDF. Watch the DIDX demo <Anchor href="https://www.youtube.com/user/didexchange">videos</Anchor> and search the <Anchor href="https://kb.didx.net">knowledge base</Anchor>.
+						Browse a copy of the DIDX member <Anchor href="/member-manual.pdf">manual</Anchor> in PDF. Watch the DIDX demo <Anchor href="https://www.youtube.com/user/didexchange">videos</Anchor> and search the <Anchor href="https://kb.didx.net">knowledge base</Anchor>.
 					</Paragraph>
 
 					<SubHeading>Requirements</SubHeading>
