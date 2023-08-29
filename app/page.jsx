@@ -10,7 +10,8 @@ import {
   faCircleCheck,
   faTrophy,
   faThumbsUp,
-  faCalendar
+  faCalendar,
+  faCaretRight
 } from "@fortawesome/free-solid-svg-icons"
 import Link from 'next/link'
 import Image from 'next/image'
@@ -120,6 +121,13 @@ export default function Page() {
             <Link href="/events" className="border-2 border-white px-4 py-1 rounded text-xl transition-colors sm:text-2xl sm:px-6 sm:py-2 sm:rounded-md hover:bg-white hover:text-neutral-700">view</Link>
           </div>
         </div>
+      </section>
+
+      <section className="bg-[#2196F3] h-auto px-6 py-4 text-center text-white flex items-center justify-center gap-y-4 flex-wrap text-2xl xl:h-20">
+        Download the DIDX Android App from
+        <Link className="font-semibold underline underline-offset-2 ml-4" href="https://play.google.com/store/apps/details?id=net.didx">
+          Google Play <FontAwesomeIcon icon={faCaretRight} />
+        </Link>
       </section>
     </main>
   )
