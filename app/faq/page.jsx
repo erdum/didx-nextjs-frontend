@@ -35,7 +35,7 @@ export default function Page() {
 						Question: Does DIDX offer a member manual?
 					</SmallHeading>
 					<Paragraph>
-						Answer: Yes, you can download <Anchor href="/member-manual.ppt">Power Point format</Anchor>. <Anchor href="/member-manual.pdf">PDF format</Anchor>. and also here is <Anchor href="/manual">online manual</Anchor>.
+						Answer: Yes, you can download <Anchor href="/member-manual.ppt">Power Point format</Anchor>. <Anchor href="/member-manual.pdf">PDF format</Anchor>.
 					</Paragraph>
 
 					<SmallHeading>
