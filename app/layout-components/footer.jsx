@@ -16,8 +16,8 @@ import isoCertificateImg from "../../public/iso-certificate.png"
 export default function Footer() {
 	return(
 		<footer className="w-full flex flex-col bg-[#333333]">
-			<div className="flex flex-col px-4 py-8 lg:flex-row lg:gap-x-10 lg:px-28 xl:px-64">
-				<div className="w-full flex flex-col gap-y-3 text-[#ffffff80] font-`">
+			<div className="flex flex-col px-4 py-8 lg:flex-row lg:gap-x-10 lg:px-28 2xl:px-64">
+				<div className="w-full flex flex-col gap-y-3 text-[#ffffff80]">
 					<Image
 						src={logo}
 						alt="DIDX Inc logo"
@@ -72,7 +72,7 @@ export default function Footer() {
 				</nav>
 			</div>
 
-			<div className="w-full min-h-20 flex flex-wrap gap-2 justify-between px-4 py-6 bg-[#292929] text-[#ffffff80] lg:px-28 xl:px-64">
+			<div className="w-full min-h-20 flex flex-wrap gap-2 justify-between px-4 py-6 bg-[#292929] text-[#ffffff80] lg:px-28 2xl:px-64">
 				<p>
 					DIDX is Link Delaware based company since 2005. &#169; {new Date().toLocaleString('en-us', { year: "numeric" })} DIDX, Inc.
 					<br />
