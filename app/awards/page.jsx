@@ -2,22 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 import BreadCrumb from '../layout-components/breadCrumb'
 import { StandardPage, SubHeading } from '../layout-components/standardPage'
-import Image from 'next/image'
 import Link from 'next/link'
-import getVoipImage from '../../public/awards-page-banners/get-voip.jpg'
-import kamailioImage from '../../public/awards-page-banners/kamailio-2011.jpg'
-import pensacolaImage from '../../public/awards-page-banners/pensacola-awards.jpg'
-import arabiaFastGrowth from '../../public/awards-page-banners/arabia-fast-growth.jpg'
-import cbbbImage from '../../public/awards-page-banners/cbbb.jpg'
-import cwhpImage from '../../public/awards-page-banners/cwhp-2011.jpg'
-import internetTelephony2009Image from '../../public/awards-page-banners/internet-telephony-2009.jpg'
-import vonInnovatorImage from '../../public/awards-page-banners/von-innovator.jpg'
-import digiumInnovationImage from '../../public/awards-page-banners/digium-innovation.png'
-import productOfTheYear2008 from '../../public/awards-page-banners/product-of-the-year-2008.png'
-import pashaImage from '../../public/awards-page-banners/pasha.png'
-import itExcel2006Image from '../../public/awards-page-banners/it-excel-2006.png'
-import wca2006Image from '../../public/awards-page-banners/wca-2006.png'
-import apicta2010Image from '../../public/awards-page-banners/apicta-2010.png'
 
 export const metadata = {
 	'title': 'DIDX Awards | DIDX'
@@ -31,7 +16,7 @@ export default function Page() {
 				<section className="w-full flex flex-col items-center sm:px-12 xl:px-0 2xl:px-40">
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={getVoipImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/get-voip.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-center">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX VP OF MARKETING VIA SUPER TECHNOLOGIES WINS 2015 GETVOIP TOP 50 UC EXPERTS TO FOLLOW
@@ -44,7 +29,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={kamailioImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/kamailio-2011.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-center">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX VP OF MARKETING VIA SUPER TECHNOLOGIES WINS 2011 FRIENDS OF KAMAILIO AWARD
@@ -57,7 +42,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={pensacolaImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/pensacola-awards.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-center">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 SUPER TECHNOLOGIES GOT CERTIFICATE OF MEMBERSHIP FROM PENSACOLA CHAMBER OF COMMERCE
@@ -70,7 +55,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={arabiaFastGrowth} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/arabia-fast-growth.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-center">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX VIA SUPER TECHNOLOGIES WINS THE ARABIA FAST GROWTH 500 AWARD
@@ -83,7 +68,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={cbbbImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/cbbb.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-center">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX VIA SUPER TECHNOLOGIES IS A MEMBER SINCE 2006. DIDX (SUPER TECHNOLOGIES, INC.) HAS AN A+ RATING SINCE 2005.
@@ -99,7 +84,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={cwhpImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/cwhp-2011.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-center">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 VIRTUAL PHONE LINE EMPOWERED BY DIDX WINS 2011 COMPUTERWORLD HONORS LAUREATE MEDAL
@@ -115,7 +100,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={internetTelephony2009Image} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/internet-telephony-2009.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX WINS TERADATA NATIONAL IT EXCELLENCE AWARD 2010
@@ -131,7 +116,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={vonInnovatorImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/von-innovator.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 GROOVYTEL WON THE VON INNOVATOR AWARD 2008
@@ -147,7 +132,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={digiumInnovationImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/digium-innovation.png" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX WON THE DIGIUM INNOVATION PRODUCT OF THE YEAR AWARD 2007
@@ -163,7 +148,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={productOfTheYear2008} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/product-of-the-year-2008.png" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX WON THE COMMUNICATIONS SOLUTIONS PRODUCT OF THE YEAR AWARD 2006
@@ -179,7 +164,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={pashaImage} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/pasha.png" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX WON THE “BEST OF SHOW” FROM PASHA ICT AWARDS 2006
@@ -195,7 +180,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={internetTelephony2009Image} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/internet-telephony-2009.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX CHANGE HONORED FOR DELIVERING EXCEPTIONAL VOIP/IP COMMUNICATIONS SOLUTIONS
@@ -211,7 +196,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={internetTelephony2009Image} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/internet-telephony-2009.jpg" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX WON THE INTERNET TELEPHONY PRODUCT OF THE YEAR AWARD 2007
@@ -227,7 +212,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={itExcel2006Image} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/it-excel-2006.png" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX WON THE INTERNET TELEPHONY EXCELLENCE AWARDS 2006
@@ -242,7 +227,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={wca2006Image} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/wca-2006.png" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX CHANGE AMONG TOP 8 WORLD COMMUNICATION CHANGEMAKER AWARDS SHORTLIST
@@ -257,7 +242,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={apicta2010Image} className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
+            <img src="/awards-page-banners/apicta-2010.png" className="w-full h-auto border border-black sm:w-40 xl:w-56 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 DIDX WON THE “BEST OF SHOW” FROM APICTA PACIFIC ICT AWARDS

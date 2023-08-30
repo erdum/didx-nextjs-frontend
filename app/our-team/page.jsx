@@ -4,15 +4,6 @@ import { faVideo } from '@fortawesome/free-solid-svg-icons'
 import BreadCrumb from '../layout-components/breadCrumb'
 import { StandardPage } from '../layout-components/standardPage'
 import Link from 'next/link'
-import Image from 'next/image'
-import ahsanImage from '../../public/our-team-page-images/ahsan.jpg'
-import aliImage from '../../public/our-team-page-images/ali.jpg'
-import aunImage from '../../public/our-team-page-images/aun.jpg'
-import kamranImage from '../../public/our-team-page-images/kamran.png'
-import rehanImage from '../../public/our-team-page-images/rehan.jpg'
-import tahirImage from '../../public/our-team-page-images/tahir.jpg'
-import usmanImage from '../../public/our-team-page-images/usman.jpg'
-import saadImage from '../../public/our-team-page-images/saad.png'
 
 export const metadata = {
 	'title': 'DIDX Team'
@@ -26,7 +17,7 @@ export default function Page() {
 				<section className="w-full flex flex-wrap justify-evenly gap-y-10 gap-x-2">
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={rehanImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/rehan.jpg" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">Presitdent</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Rehan</p>
@@ -42,7 +33,7 @@ export default function Page() {
 
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={ahsanImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/ahsan.jpg" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">VP Sales</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Ahsan</p>
@@ -58,7 +49,7 @@ export default function Page() {
 
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={kamranImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/kamran.png" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">CTO</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Kamran</p>
@@ -72,7 +63,7 @@ export default function Page() {
 
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={aliImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/ali.jpg" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">Sales Manager</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Muhammad</p>
@@ -88,7 +79,7 @@ export default function Page() {
 
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={aunImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/aun.jpg" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">Accounts Manager</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Aun</p>
@@ -102,7 +93,7 @@ export default function Page() {
 
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={usmanImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/usman.jpg" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">LNP Specialist</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Usman</p>
@@ -118,7 +109,7 @@ export default function Page() {
 
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={saadImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/saad.png" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">Sales Executive</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Saad</p>
@@ -134,7 +125,7 @@ export default function Page() {
 
 					<div className="w-full relative flex flex-col items-center sm:w-2/5 xl:w-1/5">
 						<div className="w-full aspect-square border-[16px] border-neutral-300 shadow-[3px_3px_1px_rgba(0,0,0,0.32)] rounded-full overflow-hidden transition-colors group hover:border-[#4593e3] hover:cursor-pointer">
-							<Image className="grayscale group-hover:grayscale-0 transition-all" src={tahirImage}/>
+							<img className="grayscale group-hover:grayscale-0 transition-all" src="/our-team-page-images/tahir.jpg" />
 							<p className="absolute bottom-32 left-8 text-white bg-[#4593e3] px-2 py-2 pr-3 rounded-r-full z-10">Sales Executive</p>
 						</div>
 						<p className="text-[#4593e3] font-semibold text-lg self-start pl-20">Tahir</p>

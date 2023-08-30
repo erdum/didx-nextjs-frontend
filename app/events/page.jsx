@@ -2,33 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy, faClock, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import BreadCrumb from '../layout-components/breadCrumb'
 import { StandardPage, SubHeading } from '../layout-components/standardPage'
-import Image from 'next/image'
 import Link from 'next/link'
-import telintaImage from '../../public/events-page-banners/itexpo-green.jpeg'
-import itwSmallImage from '../../public/events-page-banners/itw-small.png'
-import communicAsia2019Image from '../../public/events-page-banners/communasia-2019.png'
-import itexpoImage from '../../public/events-page-banners/itexpo.png'
-import gitex2017Image from '../../public/events-page-banners/gitex-2017.jpg'
-import astriconImage from '../../public/events-page-banners/astricon.png'
-import clueconImage from '../../public/events-page-banners/cluecon.jpg'
-import communicasia2018Image from '../../public/events-page-banners/communic-asia.png'
-import itwImage from '../../public/events-page-banners/itw.png'
-import telcoImage from '../../public/events-page-banners/telco-days.png'
-import opensipsImage from '../../public/events-page-banners/opensips.jpeg'
-import telcomsImage from '../../public/events-page-banners/telcoms-worlds.gif'
-import telcodaysImage from '../../public/events-page-banners/download.png'
-import mobileImage from '../../public/events-page-banners/mobile.jpg'
-import enterprise2017Image from '../../public/events-page-banners/enterprise-it-2017.jpg'
-import africaImage from '../../public/events-page-banners/africa.png'
-import mobile2017Image from '../../public/events-page-banners/mobile2017.jpg'
-import convergenceIndiaImage from '../../public/events-page-banners/convergence-india-2017.jpg'
-import gitex2016Image from '../../public/events-page-banners/gitex-2016.jpg'
-import itrtcImage from '../../public/events-page-banners/it-rtc.jpg'
-import communicasia2016Image from '../../public/events-page-banners/communic-asia-2016.jpg'
-import apiImage from '../../public/events-page-banners/all-about-the-api.jpg'
-import evolutionExpoImage from '../../public/events-page-banners/evolution-expo.jpg'
-import kamailioImage from '../../public/events-page-banners/kamailio-2016.jpg'
-import itexpoRedImage from '../../public/events-page-banners/itexpo-red.jpg'
 
 export const metadata = {
 	'title': 'DIDX Events | DIDX'
@@ -42,7 +16,7 @@ export default function Page() {
 				<section className="w-full flex flex-col items-center sm:px-28 xl:px-8 2xl:px-32">
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={telintaImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/itexpo-green.jpeg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 ITEXPO
@@ -58,7 +32,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={itwSmallImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/itw-small.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 INTERNATIONAL TELECOMS WEEK
@@ -74,7 +48,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={communicAsia2019Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/communasia-2019.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 COMMUNICASIA 2019
@@ -90,7 +64,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={itexpoImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/itexpo.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 ITEXPO
@@ -106,7 +80,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={gitex2017Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/gitex-2017.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 GIGTEX TECHNOLOY WEEK 2018
@@ -122,7 +96,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={astriconImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/astricon.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 ASTRICON 2018
@@ -138,7 +112,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={clueconImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/cluecon.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 CLUECON DEVELOPERS CONFERENCE 2018
@@ -154,7 +128,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={communicasia2018Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/communic-asia.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 COMMUNICASIA 2018
@@ -170,7 +144,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={itwImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/itw.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 INTERNATIONAL TELECOMS WEEK
@@ -186,7 +160,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={telcoImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/telco-days.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 GLOBAL VOICE CONGRESS
@@ -202,7 +176,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={opensipsImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/opensips.jpeg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
                 OPENSIPS SUMMIT, AMSTERDAM, NETHERLANDS
@@ -218,7 +192,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={telcomsImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/telcoms-worlds.gif" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	WORLD TELECOMS ASIA
@@ -234,7 +208,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={telcodaysImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/download.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	TELCODAYS BARCELONA
@@ -250,7 +224,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={mobileImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/mobile.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	MOBILE WORLD CONGRESS GSMA 2018
@@ -266,7 +240,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={itexpoImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/itexpo.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	ITEXPO
@@ -282,7 +256,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={telcodaysImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/download.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	TELCO DAYS LAS VEGAS 2017
@@ -298,7 +272,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={gitex2017Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/gitex-2017.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	GITEX TECHNOLOY WEEK
@@ -314,7 +288,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={clueconImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/cluecon.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	CLUECON DEVELOPERS CONFERENCE
@@ -330,7 +304,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={opensipsImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/opensips.jpeg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	OPENSIPS SUMMIT, AMSTERDAM, NETHERLANDS
@@ -346,7 +320,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={itwImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/itw.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	INTERNATIONAL TELECOMS WEEK
@@ -362,7 +336,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={enterprise2017Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/enterprise-it-2017.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	COMMUNICASIA, SINGAPORE
@@ -378,7 +352,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={africaImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/africa.png" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	AFRICACOM 2017
@@ -394,7 +368,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={mobile2017Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/mobile2017.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	GSM MOBILE WORLD CONGRESS
@@ -410,7 +384,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={itexpoRedImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/itexpo-red.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	ITEXPO EAST
@@ -426,7 +400,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={convergenceIndiaImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/convergence-india-2017.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	ITEXPO EAST
@@ -445,7 +419,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={gitex2016Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/gitex-2016.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	GITEX TECHNOLOY WEEK
@@ -461,7 +435,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={itrtcImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/it-rtc.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	IIT RTC CONFERENCE AND  EXPO
@@ -478,7 +452,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={clueconImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/cluecon.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	CLUECON DEVELOPERS CONFERENCE 2016
@@ -495,7 +469,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={communicasia2016Image} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/communic-asia-2016.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	COMMUNICASIA / ENTERPRISE
@@ -512,7 +486,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={apiImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/all-about-the-api.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	COMMUNICASIA / ENTERPRISE
@@ -529,7 +503,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={evolutionExpoImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/evolution-expo.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	IOT EVOLUTION EXPO
@@ -546,7 +520,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={kamailioImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/kamailio-2016.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	KAMAILIO WORLD 2017
@@ -563,7 +537,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col items-center bg-gray-100 pr-4 py-2 mb-8 sm:flex-row sm:items-start sm:pr-2 sm:gap-x-6 xl:gap-x-8">
-            <Image src={kamailioImage} className="w-72 sm:w-44 xl:min-w-[20rem]" />
+            <img src="/events-page-banners/kamailio-2016.jpg" className="w-72 sm:w-44 xl:min-w-[20rem]" />
             <div className="flex flex-col justify-start px-8 sm:items-start text-neutral-600">
               <h3 className="my-4 text-neutral-700 text-2xl sm:my-0 sm:mb-4 xl:text-3xl">
               	INTERNATIONAL TELECOMS WEEK 2016

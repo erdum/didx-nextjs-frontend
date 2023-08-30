@@ -1,19 +1,5 @@
-import Image from 'next/image'
 import BreadCrumb from '../layout-components/breadCrumb'
 import { StandardPage, SubHeading, Paragraph } from '../layout-components/standardPage'
-import image1 from '../../public/testimonial-page-banners/1.png'
-import image2 from '../../public/testimonial-page-banners/2.png'
-import image3 from '../../public/testimonial-page-banners/3.png'
-import image4 from '../../public/testimonial-page-banners/4.png'
-import image5 from '../../public/testimonial-page-banners/5.png'
-import image6 from '../../public/testimonial-page-banners/6.png'
-import image7 from '../../public/testimonial-page-banners/7.png'
-import image8 from '../../public/testimonial-page-banners/8.png'
-import image9 from '../../public/testimonial-page-banners/9.png'
-import image10 from '../../public/testimonial-page-banners/10.png'
-import image11 from '../../public/testimonial-page-banners/11.png'
-import image12 from '../../public/testimonial-page-banners/12.png'
-import image13 from '../../public/testimonial-page-banners/13.png'
 
 export const metadata = {
 	'title': 'DIDX Praises | DIDX'
@@ -150,91 +136,91 @@ export default function Page() {
 
 					<section className="flex flex-wrap items-start justify-between text-sm text-neutral-600 font-semibold leading-7">
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image10} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/10.png" />
 							<p className="m-6 text-center">
 								Michael Robertson, CEO of Sipphone (the first IP communications company to join DIDX) and also Mp3, shares thoughts on the success of DIDX
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image4} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/4.png" />
 							<p className="m-6 text-center">
 								Humberto Correa, formerly CEO of FonicaPBX, and now with BBCOM CLEC as well as Alan Pesatty, business consultant, discuss in Spanish the benefits of telecoms using DIDX to buy and sell phone numbers.
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image5} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/5.png" />
 							<p className="m-6 text-center">
 								John Lodden, CEO of Michigan Networks, explains the advantages of selling DID on DIDX during a Cluecon conference.
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image3} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/3.png" />
 							<p className="m-6 text-center">
 								Douglas Kimani, DIDX member shares the need for DIDX among global service providers in English and Swahili.
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image13} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/13.png" />
 							<p className="m-6 text-center">
 								Worldworkz at Spring VON 2007
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image2} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/12.png" />
 							<p className="m-6 text-center">
 								Connectbynet at Spring VON 2007
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image7} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/7.png" />
 							<p className="m-6 text-center">
 								Rich Tehrani of TMC Internet Telephony
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image6} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/6.png" />
 							<p className="m-6 text-center">
 								DS2 Jose Lucini at NXTCOMM 2007
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image9} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/9.png" />
 							<p className="m-6 text-center">
 								Richard Koch, RNK Communications at Comptel 2007
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image11} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/11.png" />
 							<p className="m-6 text-center">
 								CallThePlanet’s CTO Steven Harrison at EXPOcomm 2008 in Mexico City
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image7} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/7.png" />
 							<p className="m-6 text-center">
 								Serge Kruppa of Peerant and Jessica Ruiz of DIDX at EXPOcomm 2008 in Mexico City
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image8} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/8.png" />
 							<p className="m-6 text-center">
 								Luis Alberto Moreno (DIDX Partner) of Bas Computers at EXPOcomm 2008 in Mexico City
 							</p>
 						</section>
 
 						<section className="w-full border my-4 xl:m-10 xl:w-3/12">
-							<Image className="min-w-full aspect-video" src={image1} />
+							<img className="min-w-full aspect-video" src="/testimonial-page-banners/1.png" />
 							<p className="m-6 text-center">
 								Alexandro Apan NeoCenter on Call Centers, DIDX, EXPOcomm
 							</p>

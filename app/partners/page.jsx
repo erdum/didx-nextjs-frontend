@@ -2,26 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 import BreadCrumb from '../layout-components/breadCrumb'
 import { StandardPage, SubHeading } from '../layout-components/standardPage'
-import Image from 'next/image'
 import Link from 'next/link'
-import telintaImage from '../../public/partners-page-banners/telinta.png'
-import nctImage from '../../public/partners-page-banners/nct.png'
-import cxImage from '../../public/partners-page-banners/cx.png'
-import callisionImage from '../../public/partners-page-banners/callision.png'
-import symphonyImage from '../../public/partners-page-banners/symphony.jpg'
-import kolmisoftImage from '../../public/partners-page-banners/kolmi-soft.jpeg'
-import itexpoImage from '../../public/partners-page-banners/itexpo.png'
-import sipSchoolImage from '../../public/partners-page-banners/sip-school.png'
-import portaOneImage from '../../public/partners-page-banners/portaone.png'
-import voipSwitch from '../../public/partners-page-banners/voip-switch.png'
-import brekekeImage from '../../public/partners-page-banners/brekeke.png'
-import snomImage from '../../public/partners-page-banners/snom.png'
-import sangomaImage from '../../public/partners-page-banners/sangoma.png'
-import allisonImage from '../../public/partners-page-banners/allison.jpeg'
-import grandStreamImage from '../../public/partners-page-banners/grand-stream.png'
-import virtualphonelineImage from '../../public/partners-page-banners/virtualphoneline.png'
-import inc5000Image from '../../public/partners-page-banners/inc-5000.png'
-import jaymieImage from '../../public/partners-page-banners/jaymie.png'
 
 export const metadata = {
 	'title': 'DIDX Partners | DIDX'
@@ -35,7 +16,7 @@ export default function Page() {
 				<section className="w-full flex flex-col items-center sm:px-12 xl:px-0 2xl:px-40">
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={telintaImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/telinta.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 TELINTA
@@ -51,7 +32,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={nctImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/nct.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 NEW CONCEPT TECHNOLOGIES (NCT)
@@ -73,7 +54,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={cxImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/cx.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 CX INNOVATING COMMUNICATIONS
@@ -89,7 +70,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={callisionImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/callision.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 CALLISION
@@ -105,7 +86,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={symphonyImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/symphony.jpg" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 SYMPHONY GLOBAL
@@ -121,7 +102,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={kolmisoftImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/kolmi-soft.jpeg" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 KOLMISOFT
@@ -137,7 +118,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={itexpoImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/itexpo.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 ITEXPO
@@ -153,7 +134,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={sipSchoolImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/sip-school.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 THE SIP SCHOOL
@@ -175,7 +156,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={portaOneImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/portaone.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 PORTA ONE
@@ -191,7 +172,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={voipSwitch} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/voip-switch.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 VOIP SWITCH
@@ -207,7 +188,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={brekekeImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/brekeke.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 BREKEKE SOFTWARE, INC
@@ -223,7 +204,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={snomImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/snom.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 SNOM
@@ -239,7 +220,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={sangomaImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/sangoma.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 SANGOMA
@@ -255,7 +236,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={allisonImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/allison.jpeg" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 ALLISON SMITH
@@ -271,7 +252,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={grandStreamImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/grand-stream.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 GRANDSTEAM NETWORKS
@@ -287,7 +268,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={virtualphonelineImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/virtualphoneline.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 VIRTUAL PHONE LINE
@@ -303,7 +284,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={inc5000Image} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/inc-5000.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 SNOM
@@ -319,7 +300,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-start sm:gap-x-8">
-            <Image src={jaymieImage} className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
+            <img src="/partners-page-banners/jaymie.png" className="w-full h-auto border border-black sm:min-w-[160px] xl:min-w-[220px] 2xl:w-64" />
             <div className="flex flex-col justify-start items-start">
               <h3 className="my-4 text-neutral-700 sm:my-0 sm:mb-4 sm:text-lg">
                 JAYMIE SCOTTO

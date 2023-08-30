@@ -2,8 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import Link from "next/link"
-import Image from "next/image"
-import logo from "../../public/didx-logo.png"
 
 const MENULINKS = [
 	{name: "About us", link: "/about-us"},
@@ -35,11 +33,7 @@ export default function Header() {
 	return (
 		<header className="w-full h-20 px-3 flex items-center flex-wrap bg-[#ffffffcc] sticky top-0 z-50 shadow-md lg:h-24 lg:px-8">
 			<Link href="/" className="mr-auto hover:cursor-pointer">
-				<Image
-					src={logo}
-					alt="DIDX Inc logo"
-					className="w-[100px] h-full lg:w-[120px]"
-				/>
+				<img src="/didx-logo.png" className="w-[100px] h-full lg:w-[120px]" />
 			</Link>
 			<button
 				aria-label="Menu"

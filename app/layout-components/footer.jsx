@@ -8,21 +8,13 @@ import {
 	faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons"
 import Link from 'next/link'
-import Image from 'next/image'
-import logo from "../../public/didx-logo-white.png"
-import businessCertificateImg from "../../public/business-certificate.png"
-import isoCertificateImg from "../../public/iso-certificate.png"
 
 export default function Footer() {
 	return(
 		<footer className="w-full flex flex-col bg-[#333333]">
 			<div className="flex flex-col px-4 py-8 lg:flex-row lg:gap-x-10 lg:px-28 2xl:px-64">
 				<div className="w-full flex flex-col gap-y-3 text-[#ffffff80]">
-					<Image
-						src={logo}
-						alt="DIDX Inc logo"
-						className="w-[126px] h-auto -ml-2 mb-4 lg:w-[156px] lg:mt-6"
-					/>
+					<img src="/didx-logo-white.png" alt="DIDX Inc logo" className="w-[126px] h-auto -ml-2 mb-4 lg:w-[156px] lg:mt-6" />
 					<p>DIDX is Link Delaware based company since 2005, working in the field of Telecom solutions.</p>
 					<p><span className="text-sm font-medium">Address:</span><br />PO Box 192750 #22079 San Francisco, CA 94119</p>
 					<p><span className="text-sm font-medium">Email:</span><br />sales@didx.net</p>
@@ -50,8 +42,8 @@ export default function Footer() {
 					<Link className="transition-colors hover:text-neutral-500 hover:cursor-pointer" href="/voip-switch"><FontAwesomeIcon icon={faHandPointRight} className="mr-2"/>VOIP Switch</Link>
 					<Link className="transition-colors hover:text-neutral-500 hover:cursor-pointer" href="/elastix"><FontAwesomeIcon icon={faHandPointRight} className="mr-2"/>Elastix</Link>
 					<span className="w-4/5 h-px mr-auto mt-6 bg-neutral-400 sm:w-2/5 xl:w-full"></span>
-					<Image src={businessCertificateImg} alt="accredited business certificate" />
-					<Image src={isoCertificateImg} alt="ISO 9001:2008 registeration mark" />
+					<img src="/business-certificate.png" alt="accredited business certificate" />
+					<img src="/iso-certificate.png" alt="ISO 9001:2008 registeration mark" />
 				</nav>
 
 				<nav className="w-full flex flex-col items-start gap-y-3 text-[#ffffff80] font-medium">
