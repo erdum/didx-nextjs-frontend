@@ -15,6 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import Link from 'next/link'
 import Image from 'next/image'
+import Script from 'next/script'
 
 export default function Page() {
   return(
@@ -129,6 +130,11 @@ export default function Page() {
           Google Play <FontAwesomeIcon icon={faCaretRight} />
         </Link>
       </section>
+
+      <Script
+        strategy="lazyOnload"
+        src="https://embed.tawk.to/592c7e654374a471e7c505bf/default"
+      />
     </main>
   )
 }
