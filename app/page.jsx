@@ -135,6 +135,10 @@ export default function Page() {
         strategy="lazyOnload"
         src="https://embed.tawk.to/592c7e654374a471e7c505bf/default"
       />
+      <Script
+        strategy="lazyOnload"
+        src="https://widget.tochat.be/bundle.js?key=398074a8-0d76-41ab-a8ed-a01189257cf2"
+      />
     </main>
   )
 }
