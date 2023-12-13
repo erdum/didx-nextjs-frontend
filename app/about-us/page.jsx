@@ -61,7 +61,7 @@ export default function Page() {
 					</Paragraph>
 
 					<Paragraph>
-						You can visit our <Anchor href="/team">Team</Anchor> page to learn more about them
+						You can visit our <Anchor href="/our-team">Team</Anchor> page to learn more about them
 					</Paragraph>
 				</section>
 
