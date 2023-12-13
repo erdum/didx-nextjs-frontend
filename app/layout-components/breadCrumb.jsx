@@ -10,7 +10,7 @@ export default function BreadCrumb({ title }) {
 		<section className="w-full min-h-[64px] bg-zinc-100 flex flex-wrap items-center justify-between px-4 py-2 gap-y-4 sm:px-16 xl:px-40 2xl:px-72">
 			<p className="text-neutral-600 text-lg">{ title.split('|')[0] }</p>
 
-			<nav className="text-neutral-500 text-sm font-semibold flex gap-x-1">
+			<nav className="text-neutral-500 text-sm font-medium flex gap-x-1">
 				{path.map((item, index) => {
 
 					if (index === 0) {
@@ -18,10 +18,18 @@ export default function BreadCrumb({ title }) {
 							<Link key={index} href="/" className="hover:text-blue-600 transition-colors">Home</Link>
 						)
 					} else {
+						// Last route fragment or Active link
+						if (index + 1 === path.length) return (
+							<div key={index}>
+								<span className="mr-1">/</span>
+								<Link className="font-semibold" href={`/${item}`} >{item.charAt(0).toUpperCase() + item.slice(1)}</Link>
+							</div>
+						)
+
 						return (
 							<div key={index}>
-								<span className="font-medium mr-1">/</span>
-								<Link href={`/${item}`} className="font-medium">{item.charAt(0).toUpperCase() + item.slice(1)}</Link>
+								<span className="mr-1">/</span>
+								<Link href={`/${item}`} >{item.charAt(0).toUpperCase() + item.slice(1)}</Link>
 							</div>
 						)
 					}
