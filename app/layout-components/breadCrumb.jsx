@@ -5,6 +5,7 @@ import Link from 'next/link'
 
 export default function BreadCrumb({ title }) {
 	const path = usePathname().split('/')
+	path.pop() // Remove trailing slash from the path
 
 	return (
 		<section className="w-full min-h-[64px] bg-zinc-100 flex flex-wrap items-center justify-between px-4 py-2 gap-y-4 sm:px-16 xl:px-40 2xl:px-72">
