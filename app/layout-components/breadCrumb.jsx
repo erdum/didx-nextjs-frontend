@@ -15,27 +15,17 @@ export default function BreadCrumb({ title }) {
 
 					if (index === 0) {
 						return(
-							<Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+							<Link key={index} href="/" className="hover:text-blue-600 transition-colors">Home</Link>
 						)
-					}
-
-					if (index + 1 < path.length) {
+					} else {
 						return (
-							<>
-								<span className="font-medium">/</span>
+							<div key={index}>
+								<span className="font-medium mr-1">/</span>
 								<Link href={`/${item}`} className="font-medium">{item.charAt(0).toUpperCase() + item.slice(1)}</Link>
-							</>
+							</div>
 						)
 					}
 
-					if (index + 1 === path.length) {
-						return (
-							<>
-								<span className="font-medium">/</span>
-								<p className="font-medium">{item.charAt(0).toUpperCase() + item.slice(1)}</p>
-							</>
-						)
-					}
 				})}
 			</nav>
 		</section>
